@@ -1,5 +1,6 @@
 import requests
 import time
+import pickle
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -14,6 +15,12 @@ def main():
     browser = launchBrowser()
     db = getStats(browser)
     visualization(db)
+    test = pickle.load( open( "16-17-nba_player_stats.pkl", "rb" ) )
+    print(test)
+
+
+
+
 
 
 def launchBrowser():
@@ -44,7 +51,7 @@ def getStats(browser):
 
     for line_id, lines in enumerate(table.text.split('\n')):
         if line_id == 0:
-            column_names = lines.split(' ')
+            column_names = lines.split(' ')[0:]
         else:
             if line_id % 3 == 1:
                 player_ids.append(lines)
@@ -100,6 +107,13 @@ def getStats(browser):
       ]
 
     db.to_html('output.html')
+
+    #sql_db = create_engine('sqlite:///16-17-nba_player_stats.db')
+    #sql_db.echo = False
+
+    #db.to_sql('16-17-nba_player_stats.db', sql_db)
+    db.to_pickle('16-17-nba_player_stats.pkl')
+
     return db
 
 def visualization(db):
@@ -111,6 +125,7 @@ def visualization(db):
     plt.xlim([0,30])
     plt.ylim([0,75])
     plt.show()
+
 
     
 

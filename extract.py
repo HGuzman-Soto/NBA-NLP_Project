@@ -1,32 +1,28 @@
 import requests
 import time
 import pickle
+
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from pandas import *
-import pandas
 import numpy as np
 import matplotlib.pyplot as plt
 from sqlalchemy import *
-
+from sys import argv
 
 def main():
-    browser = launchBrowser()
-    db = getStats(browser)
-    visualization(db)
-    test = pickle.load( open( "16-17-nba_player_stats.pkl", "rb" ) )
-    print(test)
 
-
-
-
+    if argv[1] == "visual":
+        test = pickle.load( open( "19-20-nba_player_stats.pkl", "rb" ) )
+        print(test)
+        visualization(test)
+    if argv[1] == "get":
+        browser = launchBrowser()
+        getStats(browser)
+        
 
 
 def launchBrowser():
-    #Adapted from
-    #http://kevincsong.com/Scraping-stats.nba.com-with-python/
-
     driver = webdriver.ChromeOptions()
 
     driver.binary_location = "/Users/soto26938/Applications/Google Chrome"
@@ -39,12 +35,15 @@ def launchBrowser():
    
 
 def getStats(browser):
+    #Adapted from
+    #http://kevincsong.com/Scraping-stats.nba.com-with-python/
+
     url = "https://stats.nba.com/leaders"
     browser.get(url)
-    browser.find_element_by_xpath('/html/body/main/div[2]/div/div[2]/div/div/div[1]/div[2]/div/div/label/select/option[2]').click()
-
-    browser.find_element_by_xpath('/html/body/main/div[2]/div/div[2]/div/div/nba-stat-table/div[3]/div/div/select/option[1]').click()
+    #browser.find_element_by_xpath('/html/body/main/div[2]/div/div[2]/div/div/nba-stat-table/div[3]/div/div/select/option[2]').click()
+    browser.find_element_by_xpath('/html/body/main/div[2]/div/div[2]/div/div/div[1]/div[4]/div/div/label/select/option[5]').click()
     table = browser.find_element_by_class_name('nba-stat-table__overflow')
+    print(table.text)
     player_ids = []
     player_names = []
     player_stats = []
@@ -105,16 +104,15 @@ def getStats(browser):
          'tov',
          'eff']
       ]
-
+    print(db)
     db.to_html('output.html')
 
     #sql_db = create_engine('sqlite:///16-17-nba_player_stats.db')
     #sql_db.echo = False
 
     #db.to_sql('16-17-nba_player_stats.db', sql_db)
-    db.to_pickle('16-17-nba_player_stats.pkl')
+    db.to_pickle('19-20-nba_player_stats.pkl')
 
-    return db
 
 def visualization(db):
     plt.scatter(db['fga'], db['fg%'])

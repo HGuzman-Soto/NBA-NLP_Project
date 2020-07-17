@@ -1,42 +1,49 @@
-import requests
-import time
-import pickle
+import praw
+import pandas as pd
+import datetime as dt
+import os
 
-from urllib.request import urlopen
-from selenium import webdriver
-from pandas import *
-import numpy as np
-from sys import argv
+
 
 def main():
+    reddit = praw.Reddit(client_id="CIiRpIvsdkRJ8A",
+                        client_secret=os.environ.get('client_secrets'),
+                        user_agent="NBA_Scraper",
+                        username=os.environ.get('reddit_user'),
+                        password=os.environ.get('reddit_pwd'))
 
-    if argv[1] == "visual":
-        test = pickle.load( open( "19-20-nba_player_stats.pkl", "rb" ) )
-        print(test)
-    if argv[1] == "get":
-        browser = launchBrowser()
-        getStats(browser)
-        
+    subreddit = reddit.subreddit('nba')
+    top_subreddit = subreddit.top(limit=500)
+    for submission in subreddit.top(limit=100):
+        print(submission.title, submission.id, "\n")
 
+    topics_dict = { "title":[], \
+                "score":[], \
+                "id":[], \
+                "url":[], 
+                "comms_num": [], \
+                "created": [], \
+                "body":[]}
 
-def launchBrowser():
-    driver = webdriver.ChromeOptions()
-
-    driver.binary_location = "/Users/soto26938/Applications/Google Chrome"
-    driver.add_argument("start-maximized")
-    path_to_chromedriver = '/Users/soto26938/Desktop/nba_project/chromedriver' # Path to access a chrome driver
-
-    browser = webdriver.Chrome(executable_path=path_to_chromedriver)
-    return browser
-
-   
-
-def getStats(browser):
-   
-    url = "https://stats.nba.com/leaders"
-    browser.get(url)
-   
+    for submission in top_subreddit:
+        topics_dict["title"].append(submission.title)
+        topics_dict["score"].append(submission.score)
+        topics_dict["id"].append(submission.id)
+        topics_dict["url"].append(submission.url)
+        topics_dict["comms_num"].append(submission.num_comments)
+        topics_dict["created"].append(submission.created)
+        topics_dict["body"].append(submission.selftext)
     
+    topics_data = pd.DataFrame(topics_dict)
+    _timestamp = topics_data["created"].apply(get_date)
+    topics_data = topics_data.assign(timestamp = _timestamp)
+
+    topics_data.to_csv('reddit_comments.csv') 
+
+def get_date(created):
+    return dt.datetime.fromtimestamp(created)
+
+
 
 if __name__ == "__main__":
     main()

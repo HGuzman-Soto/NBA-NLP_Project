@@ -1,0 +1,2470 @@
+,title,score,id,url,comms_num,created,body,upvote_ratio,timestamp
+0,I analyzed James Harden's performance in every NBA city to see if there is a correlation between his box score and the city's average strip club rating.,89099,dt0ucg,https://www.reddit.com/r/nba/comments/dt0ucg/i_analyzed_james_hardens_performance_in_every_nba/,4274,1573175984.0,"Everyone knows James Harden has a particular affinity for the Canadian ballet, aka strip clubs. After the Rocket's dismal performance in Miami last week, and the city's reputation for high quality tit-shacks, I became increasingly curious to see just how much James Harden's vice affects his game.  So here we are, I spent the better part of the week on this, hope y'all enjoy!
+
+**Hypothesis**: James Harden's box score declines in cities with high quality strip clubs
+
+**Test**: Analyze James Harden's performance in every NBA city and correlate with those cities' reputation for strip clubs to see if there is any discernible relationship.
+
+&#x200B;
+
+**Methodology/Steps**:
+
+* First I extracted all of James Harden's game logs for the past 4 seasons from Basketball Reference, cleaned up the data a bit (a bunch), and appended it into a single worksheet.
+* Next, I filtered out all Home games and all games Harden was inactive or DNP. For the purpose of this analysis we did not look at home games.
+* **Poor Performances** were determined by variances in 6 stats: Points, FG%, 3PT%, FT%, Assists and Turnovers. For each of these stats I compared Harden's *overall* season average to the *city-specific* season average. I identified 2 categories of poor performances:
+
+1. Sub-Par - Harden performed WORSE than season average, and
+2. Very Sub-Par - Harden performed 20%+ WORSE than season average.
+
+* I analyzed his poor performances across each of the NBA’s 28 different cities (did not look at home games so no Houston, there are 2 teams in LA, and I distinguished between Brooklyn and NYC = 28 cities).
+* **City Strip Club Rating** was determined by the average google review rating for the first 10 strip clubs in each city based on the google search “\[CITY\] Strip Clubs” (e.g., “Detroit Strip clubs”). Yes, this did involve me making like 30+ searches for strip clubs on my cpu...
+* Finally, I put the City Strip Club Rating into the pivoted game log data, performed a regression analysis and visualized it into charts.
+
+&#x200B;
+
+**Conclusion**:
+
+>!I have proven, to a statistically significant degree, that James Harden’s game performance declines in cities with higher rated strip clubs. !<
+
+>!Correlation Coefficient - r - (between avg strip club rating and total # of sub-par games) = .4575!<
+
+* >!Given the nature of the subject matter, this would be considered a moderate-to-strong correlation. !<
+
+>!Coefficient of Determination - r2 - (between avg strip club rating and total # of sub-par games) = .21!<
+
+* >!This means that James Harden’s box score is 20% predictable based on the quality of a city’s strip clubs !<
+
+>!Other interesting facts: !<
+
+* >!Harden’s best performance comes in city with the worst strip clubs - Toronto!<
+* >!Harden’s worst performance comes in city with the best strip clubs - Miami!<
+* >!Salt Lake city has the 3rd-ranked strip clubs of all NBA cities lol!<
+
+&#x200B;
+
+[Link to all my work](https://docs.google.com/spreadsheets/d/1hwDoaHcXqncb_l24NrxLCWTxE5pLaeKlU8r1Jnp39GQ/edit?usp=sharing)
+
+The charts won’t upload perfectly to google docs so I have included [screenshots here](https://imgur.com/a/JEhHxkH)
+
+&#x200B;
+
+e. haha well this bl**e**w up. Just wanted to take the opportunity to say how much I appreciate r/NBA for being the best fucking sub on this site (**d**espite y'all nephews calling my boy *hitler*), than**k**s to all my fellow redditors for t**h**e nice words and the ridiculous amount of gold.",0.94,2019-11-07 17:19:44
+1,[Megathread] Kobe Bryant has passed away at age 41,69551,eubqdm,https://www.reddit.com/r/nba/comments/eubqdm/megathread_kobe_bryant_has_passed_away_at_age_41/,16789,1580097036.0,"As reported by TMZ, Kobe Bryant has passed away in a helicopter crash earlier this afternoon. We will be updating this thread as more information becomes available.
+
+This is also a reminder that this situation is still fluid and we will remove anything that cannot be directly confirmed at this time.
+
+[Initial TMZ report](https://www.tmz.com/2020/01/26/kobe-bryant-killed-dead-helicopter-crash-in-calabasas/)
+
+[ABC in LA reporting](https://twitter.com/dougespn/status/1221517925502332939?s=21)
+
+[Woj reporting confirmation]
+(https://twitter.com/wojespn/status/1221521133608079368?s=19)
+
+3:35 [Daughter confirms Rick Fox was NOT on board](https://twitter.com/CourtneyFallon_/status/1221531721688068096?s=19)
+
+3:39 [[Mannix] The NBA is still discussing how to handle its slate of games today, per sources.](https://twitter.com/SIChrisMannix/status/1221532167869796352?s=19)
+
+3:41 [TMZ reporting in the main article that one of Kobe's daughter WAS on board](https://www.tmz.com/2020/01/26/kobe-bryant-killed-dead-helicopter-crash-in-calabasas/)
+
+3:44 [As of this moment, games will be played and the Rockets and Nuggets have tipped off. Game Thread linked here](https://old.reddit.com/r/nba/comments/eubf3u/game_thread_houston_rockets_2816_denver_nuggets/)
+
+3:45 [Moment of silence at the Pepsi Center](https://streamable.com/0o268)
+
+3:57 [[Wojnarowski] Sources: Kobe Bryant was on his way to a travel basketball game with his daughter Gianna when the helicopter crashed. Those aboard the helicopter also included another player and parent.](https://twitter.com/wojespn/status/1221537476893925376?s=21)
+
+4:01 [[Yahoo!] A memorial for Kobe Bryant has been started outside the Staples Center.]
+(https://twitter.com/YahooSports/status/1221536476451635201?s=19)
+
+4:17 [[Burke] Spurs and Raptors run out the shot-clock in the first possession of their game](https://twitter.com/bubbaprog/status/1221541799975628801)
+
+4:19 [[LA County Sheriffs] Press Conference scheduled for 2pm PST] (https://twitter.com/LASDHQ/status/1221530506774188035)
+
+4:22 [[Charania] The NBA has sent email to its employees confirming the tragic deaths of Kobe Bryant and his daughter Gianna, @TheAthletic @Stadium has been told.](https://twitter.com/ShamsCharania/status/1221542821225730054)
+
+4:32 [Neymar tribute after scoring a goal](https://streamja.com/JzEX)
+
+4:44 [[Lopez] Looks like every player on the Pelicans roster will wear a pair of Kobe’s during the national anthem as a tribute.] (https://twitter.com/_Andrew_Lopez/status/1221547828008439808?s=19)
+
+4:50 [[Dawson] Kobe chant breaks out outside of the Staples Arena] (https://twitter.com/BDawsonWrites/status/1221550499960279047?s=19)
+
+5:27 [[Shaq] There’s no words to express the pain Im going through with this tragedy of loosing my neice Gigi & my brother 
+@kobebryant] (https://twitter.com/SHAQ/status/1221549914766954496?s=20)
+
+5:31 [Press conference about to begin] (https://ktla.com/2020/01/26/kobe-bryant-dies-in-calabasas-area-helicopter-crash-that-left-no-survivors-variety/)
+
+5:32 [Other crash victims identified as Orange Coast College baseball coach John Altobelli and his daughter](https://www.ocregister.com/2020/01/26/orange-coast-college-baseball-coach-john-altobelli-dies-in-helicopter-crash-with-kobe-bryant)
+
+5:39 [Per LAFD press conference: There were nine people on board](https://www.clickondetroit.com/news/local/2020/01/26/watch-la-fire-officials-hold-press-conference-on-helicopter-crash/)
+
+5:41 [[Magic] My friend, a legend, husband, father, son, brother, Oscar winner and greatest Laker of all-time is gone] (https://twitter.com/MagicJohnson/status/1221560645323124736)
+
+8:05 [[USA Today] Altobelli's wife and  daughter were also inside the helicopter] (https://amp.usatoday.com/amp/4583873002)
+
+[Kobe Memorial Thead](https://www.reddit.com/r/nba/comments/eumvl1/in_memoriam_kobe_bryant_19782020)",0.94,2020-01-26 19:50:36
+2,"Somehow DeSean Jackson, Stephen Jackson, Kevin Durant and JR Smith praising Hitler is getting less coverage than Drew Brees' comments.",46618,hnir15,https://www.reddit.com/r/nba/comments/hnir15/somehow_desean_jackson_stephen_jackson_kevin/,6768,1594249806.0,"Skip and Shannon just did a segment on the incident where Shannon says it was 'taken out of context' and that he believes DeSean has no hate in his heart. Warning him to 'be careful' because people are hyper sensitive in 2020.' Wow.
+
+[https://www.youtube.com/watch?v=Ymp3jau67C8](https://www.youtube.com/watch?v=Ymp3jau67C8)
+
+ESPN showed an apology from DeSean after the Eagles' statement.
+
+[https://www.youtube.com/watch?v=ygf5WSDxlFQ](https://www.youtube.com/watch?v=ygf5WSDxlFQ)
+
+I'm sure the right wing media will jump on this full force but that's probably about it, but I don't think it will get the same coverage/outrage as Drew Brees did, which is unfortunate because this is a major fuck up and needs to be addressed.
+
+&#x200B;
+
+UPDATE: even softer kid gloves from Stephen A Smith and Max . This is fucked up.
+
+[https://www.youtube.com/watch?v=TEPGvp8B9R0](https://www.youtube.com/watch?v=TEPGvp8B9R0)
+
+&#x200B;
+
+Also, wow, this post is getting a lot of attention which is hopeful.
+
+Last year I read 'The Work I Did: A Memoir of the Secretary to Goebbels' by Goebbels (head of Nazi propaganda)'s secretary, it goes into detail about the tactics the propaganda ministry used to convince the German public that Jews were a problem,[it's very similar to the things Stephen Jackson is saying on social media right now](https://www.reddit.com/r/nba/comments/hnkd3i/person_hes_speaking_with_on_ig_live_the_point_is/). It's frightening to see how many people are supporting him in the comments as well.",0.86,2020-07-08 16:10:06
+3,[OC] Charles Barkley's Secret: A Critical Analysis,31655,f3to7w,https://www.reddit.com/r/nba/comments/f3to7w/oc_charles_barkleys_secret_a_critical_analysis/,1082,1581722661.0,"If you have ever had the chance to watch a basketball game on TNT, you might have caught yourself as glued to the half-time show as the actual game. *NBA on TNT* is one of the best sports broadcasts hosted by some of the boldest personalities on TV: Shaquille O’Neil, Ernie Johnson, Kenny Smith, and of course… Charles Barkley. 
+
+There are no subjects off limits and no quarter is given. But there is one topic that never fails to elicit strong consternation from Ernie despite roars of laughter from Shaq— Charles Barkley’s bit about the Big ol Women™ of San Antonio. If you haven’t seen it, here’s one of the best supercuts to catch you up: 
+
+ [https://www.youtube.com/watch?v=E7GPuudYY5k](https://www.youtube.com/watch?v=E7GPuudYY5k) 
+
+As you can see, Chuck is fascinated with San Antonio — well, with the women and churros of San Antonio at least. He brings up the subject so often that simply googling “San Antonio Women” yields almost exclusively articles and clips of Barkley & Co. discussing the virtues of San Antonio churros, the Big ‘ol Women™ who eat them, and the city’s curious lack of Victoria’s Secret stores.
+
+ 
+
+[ google search results for generic query \\""San Antonio Women\\""](https://preview.redd.it/81yphxq1mwg41.png?width=1288&format=png&auto=webp&s=37f18954312ed009a9e3c4d2d6620d7e15a06900)
+
+From his time as a [player](https://www.youtube.com/watch?v=nMzdAZ3TjCA), to his current career as a broadcaster, Barkley is infamous for never minding his tongue. When it comes to making Shaq and the production crew keel over with laughter, it’s clear he has no plans to change his humorous tone, no matter how much Ernie scorns him.  
+
+
+***But did you ever wonder why… Why is Chuck so fixated on the Big ol Women*****™** ***of San Antonio and their unique pastry/ lingerie inclinations?***
+
+  
+***Is there something more behind the man’s obsession?***
+
+So began my search to understand the enigma that is Charles Wade Barkley…
+
+&#x200B;
+
+# The Research
+
+I started out by attempting to confirm or refute Barkley’s suspicions… 
+
+* Does San Antonio have a lot of Big ol Women™? 
+* Is Victoria really a “Secret” in San Antonio?, and
+* How do fried Spanish pastries play into this whole thing?
+
+Well let’s break it down one-by-one…
+
+ 
+
+**San Antonio’s Big ol Women™**
+
+I compared obesity rates for every NBA city to determine if there is any merit to Chuck’s claim that San Antonio has an abundance of plus-sized ladies…
+
+[ NBA cities ranked by Obesity Rates ](https://preview.redd.it/9mm0ytabmwg41.png?width=383&format=png&auto=webp&s=6761f072a5ca61b9a1c7d47d1ae4bc3b9c64aee6)
+
+As it turns out, he is right on point. According to my analysis of a 2018 CDC report, San Antonio is the 4th chunkiest city in the NBA with more than 37% of adults registering as “clinically obese”. And with over half of San Antonians identifying as female, it’s safe to say the city *does* have a lot of *Big ol Women™*.
+
+Interesting side note: San Antonio isn’t just one of the fattest cities in the nation, they also have a distinct love for the rolls (pun intended). Per my research, San Antonio ranks #2 in the country for most google searches for “BBW”, which is of course the porn abbreviation for *Big Beautiful Women*. Not sure the significance of this fact, or how I came upon this information, but thought it was worth mentioning.
+
+[google trend statistics for search term \\""bbw\\""](https://preview.redd.it/44t42v5dmwg41.png?width=466&format=png&auto=webp&s=5b9e965defdcc0bedd498dea3ee1369f16326141)
+
+ *How many of these searches belong to Chuck himself? No small amount, I can assure you.*
+
+ 
+
+**“Who’s Victoria?” — San Antonio**
+
+Using [Victoria’s Secret store locator](https://www.victoriassecret.com/store-locator), I compiled the total number of store locations in each NBA city. Then, using 2016 U.S. Census Bureau statistics, I appended the populations for each city and calculated the amount of Victoria’s Secret stores per capita.
+
+[ NBA cities ranked by Victoria's Secret stores per capita ](https://preview.redd.it/a8l2hdrgmwg41.png?width=658&format=png&auto=webp&s=97e81c43e0ac765ac3237f7df91ba0a1e2708772)
+
+Again, Chuck’s intuition was spot-on! The city of San Antonio has the 4th fewest number of Victoria’s Secret stores per capita of all NBA cities (bottom 89th percentile).
+
+I guess it’s safe to conclude, Victoria really is a secret in San Antonio.
+
+*The author contacted Victoria’s Secret Public Relations prior to publishing this article but they chose not to comment on this story.*
+
+ 
+
+**How do fried Spanish pastries play into this?**
+
+Tremendously, that’s how.
+
+I literally spent over three hours immersed in “churro data”. Admittedly, one of those hours was a lunchtime run to “Angel’s Churros & Chocolates” in Houston, TX — shout out to Maria for hooking it up with the Nutella on the side!
+
+Using cutting-edge scientific research tools, I determined the number of churro vendors per capita in each NBA city. Okay, I googled that shit. I figured counting Mexican restaurants in general would be super misleading so I quantified specifically the number of churro vendors in each NBA city using the following criteria: Performed the google search “\[CITY\] Churros” (e.g., “San Antonio Churros”) and counted the amount of vendors with *explicit* references to “Churro” in the name. I accepted various spellings and puns (e.g., “xurros”, or “Churroholic”, etc).
+
+[ NBA cities ranked by churro-vendors per capita ](https://preview.redd.it/9gjixg6kmwg41.png?width=580&format=png&auto=webp&s=e4fe6433feafdaa01a5a827a841ca236988cc978)
+
+Well Mr. Barkley’s hunch was right again… San Antonio has the 4th most Churro-Vendors per capita in the NBA (top \~90th percentile). Have to admit, though, I did *not* expect to see Salt Lake City rank so high on this list. Considering the [strip club rankings](https://www.reddit.com/r/nba/comments/dt0ucg/i_analyzed_james_hardens_performance_in_every_nba/?utm_source=share&utm_medium=web2x), I might actually have to make a trip to the ‘great white west’… 
+
+&#x200B;
+
+We have to give credit to Chuck here; he certainly knows his stuff! But for a man who [disavows data science](https://www.youtube.com/watch?v=NZf9NFaCQHQ), it begs the question, how does he know so much about the Alamo city?
+
+&#x200B;
+
+# The Analysis
+
+With my suspicions on the rise, I dug deeper into the data. And the more I dug, the more it smelled… \*sniff\* and I love the smell of cinnamon and projection in the morning. So what is Mr. Barkley hiding? Well, I analyzed his career performance in San Antonio to see if there is more to the story.
+
+Charles Barkley has an [impressive resume](https://en.wikipedia.org/wiki/Charles_Barkley): two-time Olympic gold medalist, 11-time NBA All Star, 1993 Most Valuable Player, and an esteemed member of the NBA hall of fame. He went by the intimidating moniker, *Round Mound of Rebound*. He is, indubitably, one of the greatest ballers of all time. But, just like all the greats, he had a weakness…
+
+&#x200B;
+
+**‘The Biggest Loser’**
+
+Between the years 1983–1998, Barkley played 19 games in San Antonio. *He won just 4 of them*. With his career road-win percentage at nearly .500, and considering the other damning stats laid out below, his .211 win rate in San Antonio falls soundly in the ""*curious""* column.
+
+* Career Road W/L Record: 259–276 (.484 win%)
+* San Antonio W/L Record: 4–15 (.211 win%)
+
+ 
+
+[ W\/L split, Career Away vs in San Antonio ](https://preview.redd.it/hiw4wzawmwg41.png?width=696&format=png&auto=webp&s=49520e597148522c9414d67508b7de45bb8d8eac)
+
+Now I don’t want to mislead you, San Antonio were no schmucks during this period and, obviously, basketball is a team sport. But Barkley carries most of the water: he was a generational talent and the stand-out star on most of his teams (aside from a couple years with a washed up Julius Erving and an aging Moses Malone in Philly and a couple with near-retirement Hakeem in Houston). But the following analysis should help further make my case.
+
+&#x200B;
+
+**‘My -25% Life’**
+
+San Antonio proved to be a blight on Barkley’s esteemed career. My analysis showed significant declines in almost every statistical category examined:
+
+* **GmSc** — Averaged a **-25% variance** in Game Score in SA compared to career avg
+* **ORB** — Averaged a -**11% variance** in Offensive Rebounds in SA as compared to career avg
+* **FT%** — Averaged a **-9% variance** in FT shooting efficiency in SA as compared to career avg
+* **FG%** — Averaged a **-2% variance** in shooting efficiency in SA as compared to career avg
+* **AST** — Averaged a **-6% variance** in Assists in SA as compared to career avg
+
+Note: [GmSc](https://www.basketball-reference.com/about/glossary.html) (Game Score) is a John Hollinger-created stat that gives a comprehensive measure of a player’s productivity. Formula: *GmSc=PTS+(0.4\*FG)–(0.7\*FGA)–\[0.4\*(FTA-FT)\]+(0.7\*ORB)+(0.3\*DRB)+STL+(0.7\*AST)+(0.7\*BLK)–(0.4\*PF)-TOV*
+
+Here’s what the analysis looks like:
+
+[ Barkley performance analysis via heat mapping ](https://preview.redd.it/bm4bja82nwg41.png?width=1127&format=png&auto=webp&s=e8908dd66fda7cb895c93a1f498644ed734988d1)
+
+You can see the heat map to the left is covered in red. Red cells indicate *negative* variances, meaning: for that year, Barkley’s average in San Antonio was *below* his Season Average. Of the 112 total data points examined (8 stats x 14 seasons), Barkley under-performed against the season average **62%** of the time.
+
+Heat maps are great but I needed to visualize the data in a way that better depicts the scale of Chuck’s drop in performance. I used a clustered column chart because it gives the best visual representation of relative performance, as you can easily identify the +/- trends (*Graphs for Dummies: larger/more frequent lines on BOTTOM = BAD; larger/more frequent lines on TOP = GOOD*). 
+
+ 
+
+[Barkley GmSc Variance in SA vs Season Avg](https://preview.redd.it/d7u0gmi4nwg41.png?width=801&format=png&auto=webp&s=2060d12d0604f038bcbb8c7a135b5a0b22ff9816)
+
+&#x200B;
+
+[Barkley Shooting Eff. Variances in SA vs Season Avg](https://preview.redd.it/63b0ihb7nwg41.png?width=674&format=png&auto=webp&s=1aaee6b47b785e49feaa3cf9692852c581486494)
+
+ 
+
+These huge performance declines are damning. But what do they truly *tell us*?
+
+&#x200B;
+
+#  Conclusion
+
+Well, if you’ve been following along, things should be starting to make sense. A picture has formed… how could a man who so ardently rebukes data science, know things about San Antonio that only the *data* can tell us?
+
+Every Great had their weakness. MJ couldn’t stop gambling. Shaq couldn’t hit free throws. Magic couldn’t keep it in his pants. Kobe never saw a shot he didn’t like. LeBron, hairline.
+
+For Charles Barkley, it was an entire city. The plus-sized women of San Antonio and their delectable Spanish pastries were the Round Mound’s kryptonite. And it appears he never got over it. A career of indulgence in the Alamo City has left him bitter with regret.
+
+The Chuckster has used his platform on TNT to — not very credibly — disguise his own predilections for the amenities of San Antonio. Without stretching the facts too far, we can paint a vivid picture of Barkley’s own struggle. Imagine: a perpetual Big-and-Tall man since roughly the age of 12 (guessing) and a basketball phenom would have become accustomed to night-after-night by himself with nothing but his appetite and a sense that — thanks to his coaches — he *deserved* to be rewarded. That he was a *good boy*. Another city, another game, another 4-star hotel room to himself (another sold-out show, as it were).
+
+The excitement of seeing San Antonio on the schedule brings tears to the man’s eyes. He knows what awaits him and purposefully forgets what happened before…
+
+>*Barkley, awaken by the morning sun’s blistering reflection off the San Antonio R̶i̶v̶e̶r̶* [*Creek*](https://www.mysanantonio.com/news/local/article/San-Antonio-River-Authority-fires-back-at-Charles-5465978.php)*, sees the debris and refuse from an all-night binge. He did it again. Churro wrappers crinkling beneath his weight, cinnamon sugar coating the corners of his mouth and fingers alike, and a familiar wave of anxiety that tends to come after relapse. As his memory from the prior night returns, he glances around the room with a vain hopefulness that he did not ‘fall’ alone. He was relieved to learn that, in fact, he was not alone in the previous night’s debasement. Positioned heavily — nay, crushingly — on the duvet is a Big ol Woman™ sporting a handsome pair of* [*bloomers*](https://www.ebay.com/itm/Lolita-Women-Sweet-Bloomers-Underwear-Pumpkin-Shorts-Safety-Pants-Cosplay-/182538951060)*. Her voluminous mass reassuring him — no, beckoning him — to forgive himself for his indiscretions. It wasn’t just him after all. But he knew exactly what he had done. In a rush to forget, he licked the crusted cinnamon from his lips, quietly donned his game day attire and snuck out to meet his teammates in the lobby.*  
+>  
+>  
+*But his mind would never leave that hotel room.*
+
+It is through painting this portrait of a man both conflicted and passionate (aren’t we all) that we can better understand the system of associations that have led Barkley to betray his own naked psychology for all the world to jeer at. And yet, can we blame the man? Are we not all, on some level, looking for someone to share in our appetites? Whether it be for the occasional night of plus-size women and churros, or too many designer handbags; everyone has a vice. Unfortunately, from years of shame for letting down his teammates and coaches, Chuck has betrayed the very thing that he loves. 
+
+That’s why I’m here to tell him, myself: **Stop Projecting, Mr. Barkley.**
+
+**In 2020, the decade of proclaimed** **ass-eating, there is** ***no*** **shame. It’s** ***okay*** **to stan for Big ol Women™. In fact, it’s** ***great.***
+
+&#x200B;
+
+Check out all my work [here](https://drive.google.com/open?id=1lNoKqtpnvv9dAjpgalId-HeuiuwNwjxQjVqUqjlIj2s)
+
+Thank you mods for letting me post this off-season content during the all star break!",0.94,2020-02-14 15:24:21
+4,Wilt Chamberlain secretly dominated professional basketball at age 16 under a false identity. Scoring as much as 46 points against pros in the Eastern U.S. with a team record of 36-1. By age 17 he was averaging 40.5ppg. This is the first time I'm sharing this research:,30990,6cbgx1,https://www.reddit.com/r/nba/comments/6cbgx1/wilt_chamberlain_secretly_dominated_professional/,1490,1495329131.0,"[Wilt Chamberlain Dominating Professional basketball leagues at age 16, and 17](http://imgur.com/vNZZsm5)
+
+Calculated averages for 17 year old Wilt as a Quakertown Fay:
+
+* 40.5ppg in 9 regular season games (according to one of the articles)
+
+* 74ppg in 6 playoff games (according to the math... not sure it's even possible but who knows)
+
+* 53.9ppg in 15 total games (according to a Quakertown book)
+
+* Worth mentioning he won the MVP award in that league
+
+[Image 2](http://imgur.com/NmbZnL8.jpg)
+
+[Image 3](http://imgur.com/2nhBTqC.jpg)
+
+[Image 4](http://i.imgur.com/BBnYsYc.jpg)
+
+[Image 5](http://i.imgur.com/ecuUBnC.png)
+
+Wilt Chamberlain, or as he was first known, ""George Marcus"", secretly dominated professional basketball under that assumed identity at age 16 for the Pittsburgh Raiders. Even as a kid against 6-11 men his own size playing professionally (such as former Harlem Globetrotters!) he averaged 53.9ppg by age 17. I found game recaps of multiple 46 point performances for the Quakertown Fay's at age 17, and at least one 44 point game even at age 16 for the Pittsburgh Raiders.
+
+This is not only not often talked about, it's NEVER talked about. I've seen only a few references to his professional career that predated college basketball. When I researched this I found out it got him into potential trouble with the NCAA and so it was kept hushed and perhaps left to be forgotten.
+
+*EDIT* Allow me to plug one other researcher who I've come to learn first shared the photographs of Wilt playing for the Fay's a few years ago. I found him on Twitter, and here's a link to a fascinating video he produced!
+
+https://twitter.com/storyrd
+
+https://www.youtube.com/watch?v=un5HPRWW4Yk
+
+*EDIT*
+
+IMPORTANT UPDATE - According to a Quakertown book (researched by [bardown](http://www.bardown.com/under-a-fake-identity-wilt-chamberlain-dominated-pro-basketball-when-he-was-16-and-17-1.757398) staff) Wilt actually averaged 53.9ppg in all 15 games as a Quakertown Fay! He ""only"" averaged 40.5ppg in 9 regular season games but with playoffs combined his 15 game average shoots up to 53.9ppg! This means 74ppg in the 6 playoff games as a Fay. I'm not sure if this is even possible so please take with a grain of salt. Though he did score 90 points in high school and 100 in the NBA including 5 other 70+ point games so who knows. This being against former pros his own size too including 6-11 former Globetrotter Andy Maddox!",0.92,2017-05-20 18:12:11
+5,All-NBA name teams.,30881,cfmkx2,https://www.reddit.com/r/nba/comments/cfmkx2/allnba_name_teams/,1347,1563662800.0,"**The All-NBA Most Likely to be Mispronounced team**
+
+PG- Giannis Antetokounmpo
+
+SG- Frank Ntilikina
+
+SF- Kostas Papanikolaou
+
+PF- Ersan Ilyasova
+
+C- Jonas Valanciunas
+
+
+**The All-NBA ""They misspelled my name again"" team**
+
+PG- Anfernee Hardaway
+
+SG- Dwyane Wade
+
+SF- Antawn ""But for real, call me Antwan"" Jamison
+
+PF- Marreese Speights
+
+C- Juwan Howard
+
+**The All-NBA ""I look exactly like my name sounds"" team**
+
+PG- Pablo Prigioni
+
+SG- Popeye Jones
+
+SF- Slick Watts
+
+PF- Dirk Nowitzki
+
+C- Kelly Olynyk
+
+
+
+**The All-NBA middle name team**
+
+PG- Rajon Pierre Rondo
+
+SG- Kobe Bean Bryant
+
+SF- Kevin Wayne Durant (If KD changed his number to 40 his new nickname could be WD40)
+
+PF- Tyson Cleotis Chandler
+
+C- Steven Funaki Adams
+
+
+**The All-NBA ""Thank God for my middle name"" team**
+
+PG- Wardell Stephen Curry
+
+SG- Walter Ray Allen
+
+SF- Kehinde Babatunde Victor Oladipo
+
+PF- Holdyn Jerian Grant 
+
+C- Hyland DeAndre Jordan
+
+**The All-NBA Prophet Team**
+
+PG- Ishmael Smith
+
+SG- Fred Christ
+
+SF- Jesusemilore Ojeleye
+
+PF- Moses Malone
+
+C- Joakim Noah
+
+**The All-NBA Speed Team**
+
+PG- Speedy Claxton
+
+SG- Bob Quick
+
+SF- Brandon Rush
+
+PF- Kareem Rush
+
+C- Stromile Swift
+
+
+**The All-NBA Toon Squad**
+
+PG - Pepe Sanchez
+
+SG - Pooh Richardson
+
+SF - Barney Cable
+
+PF - Popeye Jones
+
+C - Mickey Johnson
+
+
+
+
+**The All-NBA Servile Team**
+
+PG- Daequan Cook
+
+SG- Dion Waiters
+
+SF- Otto Porter
+
+PF- Caron Butler
+
+C- Wilt Chamberlain
+
+**The All-NBA Pornstar Name Team**
+
+PG- Fat Lever
+
+SG- Magic Johnson
+
+SF- Dick Van Arsdale
+
+PF- Chubby Cox
+
+C- Tiago Splitter
+
+**The All-NBA Female Pornstar Name Team**
+
+PG- Courtney Lee
+
+SG- Jodie Meeks
+
+SF- Kim English
+
+PF- Diamond Stone 
+
+C- Alexis Ajinca
+
+
+
+
+**All-NBA Nerdy Name Team**
+
+PG-Vernon Maxwell
+
+SG- Kennard Winchester
+
+SF- Quincy Pondexter
+
+PF- Clarence Weatherspoon
+
+C- Olden Polynice 
+
+
+**The All-NBA ""We Barely Escaped Having Nerdy Names and Instead Have Quite Distinguished Names"" Team**
+
+PG- Langston Galloway
+
+SG- Clyde Drexler
+
+SF- Perry Worthington
+
+PF- Worthington R. Patterson
+
+C- Charles Shackleford
+
+
+
+**The All-NBA ""Names that sound distinguished and ghetto at the same time"" team**
+
+PG- Chauncey Billups
+
+SG- Kentavious Caldwell-Pope
+
+SF- Martell Webster
+
+PF- Rondae Hollis-Jefferson
+
+C- Sindarius Thornwell
+
+
+
+
+
+**The All-NBA ""Shouldn't The Last Name and the First Name Be Switched Around?"" Team**
+
+PG- Jarrett Jack
+
+SG- Walker Russell
+
+SF- Carmelo Anthony
+
+PF- Kornel David
+
+C- Randolph Morris
+
+
+**The All-NBA Anatomical Name Team**
+
+PG- Maurice Cheeks
+
+SG- Jason Hart
+
+SF- Luther Head
+
+PF- Foots Walker
+
+C- BJ Armstrong
+
+
+**The All-NBA Animal Kingdom of a Name Team**
+
+PG- Rory Sparrow
+
+SG- Rick Fox
+
+SF- Larry Bird
+
+PF- Bison Dele
+
+C- Matt Fish
+
+
+**The All-NBA Exploring the Wonders of Nature Team**
+
+PG- Royal Ivey
+
+SG- Austin Rivers
+
+SF- Jamario Moon
+
+PF- Cherokee Parks
+
+C- Tree Rollins
+
+
+
+**The All-NBA Most Colorful Names in the Game Team**
+
+PG- Jo Jo White
+
+SG- Blue Edwards
+
+SF- Norman Black
+
+PF- Sidney Green
+
+C- Stuart Gray
+
+
+**The All-NBA Inanimate Objects as Names Team**
+
+PG- John Wall
+
+SG- Raja Bell
+
+SF- Keith Van Horn 
+
+PF- Cedric Ball
+
+C- Greg Kite
+
+**The All-NBA Flora Team**
+
+C- Tree Rollins
+
+PF- Charles Oakley
+
+SF- Royal Ivey
+
+SG- Zach LaVine
+
+PG- Derrick Rose
+
+**The All-NBA ""Does my name make anyone else here hungry?"" team**
+
+PG- Steph Curry
+
+SG- O. J. Mayo
+
+SF- Glen Rice
+
+PF- Channing Frye
+
+C- Ron Baker",0.93,2019-07-20 15:46:40
+6,Bad officiating calls in Warriors-Rockets G7,26701,8mzetu,https://www.reddit.com/r/nba/comments/8mzetu/bad_officiating_calls_in_warriorsrockets_g7/,3108,1527632056.0,"Strap in boys, it's gonna be a ride. So I've basically reviewed the whole game last night, and here are the questionable plays which I thought should have been calls/were called wrongly.
+
+#Calls going against Rockets:
+
+1. [Wrong travelling call against Capela](https://streamable.com/cso98), didn't lift up his pivot foot.
+
+2. [Slight push on PJ Tucker no call, KD gets the call on the other end](https://streamable.com/boqtv). Probably a superstar call.
+
+3. [Harden might have gotten shoved in the back by Looney](https://streamable.com/7189z), no call.
+
+4. [Capela called for a goaltend for what seemed to be a clean block](https://streamable.com/qtz8u).
+
+5. [Harden fouled on the landing](https://streamable.com/4d9r6), no call. [Slowmo](https://streamable.com/s06jh)
+
+6. [Harden fouled on three attempt](https://streamable.com/bzjys), no call. [Slowmo](https://streamable.com/alpcm)
+
+7. [Ref disallows continuation on Harden's three](https://streamable.com/vhads). [Slowmo](https://streamable.com/lydp2)
+
+8. [Eric Gordon fouled by Draymond](https://streamable.com/zynw6), no call.
+
+#Calls going against Warriors:
+
+1. [Klay gets called for an early 2nd foul which didn't look like much contact](https://streamable.com/e0s94), looked like ball just slipped out of EG's hands.
+
+2. [Curry's hip gets pushed by Gerald Green](https://streamable.com/o4nk6), even falls on the ground. No call.
+
+3. [Jordan Bell raked across the arm by Harden](https://streamable.com/s2n6m), no call. (pro tip: right click and select 1/4 speed to see the contact)
+
+4. [Klay gets hand checked by Tucker and loses the ball](https://streamable.com/pqylu). No call. [Slowmo](https://streamable.com/j8f9c)
+
+5. [KD gets pushed into Harden by Ryan Anderson](https://streamable.com/n27zm), foul on KD. Similar to [this play](https://streamable.com/nhcep), albeit less egregious by Anderson.
+
+6. [Klay gets a point removed by Scott Foster](https://streamable.com/0nhtk).
+
+A major theme which showed itself was the fact that Ryan Anderson literally (I'm not kidding) hand checked Curry every time he was switched onto him. And the Warriors forced that switch A LOT. Here's ALL the plays where Anderson guarded Curry:
+
+https://streamable.com/el34r
+
+https://streamable.com/vtmzu
+
+https://streamable.com/uv829
+
+https://streamable.com/9fqlg
+
+https://streamable.com/junss
+
+https://streamable.com/2peej
+
+https://streamable.com/53mhy
+
+https://streamable.com/cuojo
+
+https://streamable.com/07r5o
+
+Bonus Harden trying to draw foul when there was none & just looking like a fool:
+
+https://streamable.com/ca5v5
+
+https://streamable.com/jffyc
+
+Oh and, inb4 Rockets fans accuse me of bias again, and calling me a Warriors fan. Would a Warrior fan post these?
+
+https://www.reddit.com/r/nba/comments/8lyh34/ariza_gets_called_for_a_blocking_foul_on_durant/
+
+https://www.reddit.com/r/nba/comments/8ly16n/curry_draws_3_free_throws_from_capela/
+
+https://www.reddit.com/r/nba/comments/8lfvoo/draymond_going_back_to_his_bad_habits/
+
+The entire game is freely available online, if you're so angry why don't you make your own compilation? And u/unklebuckets, still waiting for [your refs lowlights thread](https://www.reddit.com/r/nba/comments/8mf8tv/post_game_thread_the_golden_state_warriors_33/dzn4mpy/?context=3), or any of the 1+ million subscribers to make one.
+
+Edit: [Summary of the night](https://i.imgur.com/fHlyNne.jpg) lol. Credits to u/wetjumpshot",0.86,2018-05-29 15:14:16
+7,How my NBA experience turned into a nightmare thanks to StubHub - They denied my chance to see the final ever game at Sleep Train Arena last night by selling me invalid tickets.,24929,4e8ikq,https://www.reddit.com/r/nba/comments/4e8ikq/how_my_nba_experience_turned_into_a_nightmare/,1360,1460365294.0,"**4/11 - Here is an update since I don't think it is right to not give StubHub the positive publicity as well when they have reached out and offered to make it up to me.**
+___________________________________
+
+StubHub has reached out to me and advised me that, in keeping with their Buyer Guarantee of offering equal or better seats, they will get me tickets to the home opener next year.
+
+The rep was extremely professional and apologetic for the situation. I told him they really should provide some kind of safeguards for buyers. He assured me that they aggressively go after any sellers who break their rules.
+I'd have rather got in to the final game, but I am happy with the outcome.
+__________________________________
+
+
+
+**TL:DR – StubHub sold my wife and I invalid tickets to the final game ever at Sleep Train Arena (ARCO Arena) – they did not notify me the tickets were bad, I found out when we got denied by the scanner at the door.  Then they kept me on hold for over 40 minutes outside the venue.  I missed the game and it could happen to you.**
+_______________
+
+Let me preface this by saying I do not blame the Kings or NBA for this situation, however I do think that they need to be aware of what one of their major resellers is doing to their fans.
+
+I am a Sacramento Kings fan - through thick and thin.  I scream about hating them, complain, and bemoan our lack of defense, lack of wins, lack of… everything.  We don’t have much.  We haven’t been to the playoffs in 10 years – the second longest drought in the NBA (behind the Wolves who I guarantee break that streak soon).  We have a superstar who teases us with his brilliance and then punishes us with his attitude and demeanor.  We went through an absolute nightmare of an ownership that tried not once, not twice, but three times to steal our team and take them to another city.  We just celebrated breaking thirty wins for the first time in nine years.  Yet I love the team to the core.
+
+I’ve watched this team since I was a kid.  In the fourth grade, I had a Kings ruler with pictures of Danny Ainge, Wayman Tisdale, and Kenny Smith.  I had, and still have, only seen NBA games in a structure that has all of the sex appeal of a giant flat office building – Sleep Train Arena (it will always be ARCO to me).  
+
+The entire basketball nation probably knows the plight of our dilapidated arena – tarps falling from the ceiling, leaks when it rains, toilets that don’t work.  Yet we Kings fans love the place.  We always have.  It’s the only real arena we have ever had – we don’t have any other major league sports in our city and this place is just cozy and fits us.  
+
+It is the perfect arena for a bunch of rabid fans in a city that Phil Jackson infamously called a “cow town” – unwittingly unleashing the birth of the very loud Kings cowbells.
+
+After all of the disasters of the previous ownership group, we finally were blessed by a man willing to save our team – Vivek Ranadive.  While we can argue his basketball knowledge and his hands on approach to basketball operations, we cannot argue that he saved the Sacramento Kings and ponied up a lot of money to build us a brand new arena in downtown Sacramento.
+
+With that very arena scheduled to open this October, many of us Kings fans circled April 9, 2016 on our calendar; the final game at the “old barn” after 28 years.
+
+I was one of those people.  I frequently purchase my tickets from a variety of sources – Kings.com, eBay, StubHub, Craigslist, etc.  Where ever the best deal lies.  Some are obviously more risky than others – Craigslist comes to mind.  
+
+I would not fret about buying tickets from StubHub – I’ve done it before plenty of times.  I hear their commercials all of the time on the radio.  I had no reason to believe that there was any risk buying tickets from their website.
+
+Unfortunately, I found out that I was completely wrong last night.
+ 
+Yesterday, I bought tickets to the final game at Sleep Train with a scheduled tip off against the OKC Thunder at 7:30 pm.  I looked through StubHub and found a great dead for two tickets for my wife and I in Row H of the lower bowl.  The total price was $356.00 – expensive for a meaningless basketball game, but not for a once-in-a-lifetime event.  
+
+The Kings were going to do it up big; tons of free giveaways, meet and greets with former players that spanned the entire Sacramento era, the opportunity to go out on the court and shoot a free throw and take pictures – it was going to be an amazing close to our shabby, but loved, arena.
+
+I [purchased the tickets a little after 5:00 pm yesterday from StubHub](https://imgur.com/COW0Khe).  At 5:22 pm, I received my email confirmation with the tickets.  I immediately took [screenshots](http://imgur.com/22fIc9n) of [both tickets](https://imgur.com/gvpW9B0) to scan at the door on my phone.  My wife and I got ready and we were on our way to drive the 30 or so miles to the arena.
+
+We arrived at approximately 7:00 pm and by this point could see all of the news trucks, concession stands, and hear the music playing.  We were getting excited.  The parking lot was as full as I’ve ever seen it.
+
+We made our way past the security check point and walked up to the self-scanner at the door where I pulled up the screenshots of my tickets.  I scanned the first one at the turnstyle:  REFUND flashed on the screen.  I stood there for a second thinking maybe it didn’t register so I tried again.  REFUND.
+
+At this point, people were piling up behind me so I stepped aside feeling a little embarrassed – like I was some scammer or didn’t know how to use the scanner.  This was where I felt my first pang of panic.  
+
+I pulled up the second ticket and slid back in line to try again.  REFUND.  I flagged down a door attendant who tried his hand scanner on both tickets: REFUND, REFUND.  It was 7:05 pm and I was in full on panic mode now.  
+
+The door attendant advised me to go to the box office so we tore off in that direction. I desperately did not want to miss the last ever player introductions at this arena.  Inside the box office, I was sympathetically told by the attendant, “I’m so sorry, this is a StubHub problem and we can’t help you – you need to call them but they’re very good at refunds.”
+
+REFUND.  There’s that word again.  
+
+I don’t want a refund – I want to see this game!  And time is tick, tick, ticking away.  I grab my phone and literally type StubHub into google as fast as my fingers will let me.  I find the number and call.  After the automated message, the voice tells me the first thing I was dreading to hear, “all of our representatives are assisting other callers – we will be with you shortly.”
+
+I am basically beside myself by now – I am down to about 15 minutes to tip off and I have no way through the door.  At 7:25pm, while still on hold, I got desperate and went back to the box office.  I asked the representative what the cheapest tickets were just to get in the building.  He tells me $160.00 each for nosebleed upper bowl tickets – plus fees.  
+
+I can’t believe what I am hearing.  I still don’t know the status of my StubHub tickets so now I am faced with the choice of buying these tickets in front of me for more than the lower bowl tickets that I should already have in my possession or continuing to wait on hold.
+
+I don’t know if I am getting a refund or not for the StubHub tickets, since no one will answer the phone, and am afraid of buying four tickets.  The box office rep says to me, “man, I’m so sorry – we’ve been seeing this all night from StubHub.”
+
+7:25 pm, 7:30 pm, 7:40 pm, 7:45 pm
+
+By 7:45 pm, I came to the realization that I was not going to see this game.  My wife and I started the most depressing, dejected walk back to our car imaginable.  About halfway there, the StubHub rep finally came on the line – after 40+ minutes on hold.  I calmly (as possible) explained my situation to him and asked him exactly what had happened.
+
+He was unable to explain why my tickets would not work.  I asked him point blank, “Did the guy who sold me these tickets also sell them to someone else.”  He would not answer, just saying that sometimes there are issues with the tickets.  I kept pressing him, asking him why I was not notified that my tickets would not work before I got to the door.  At least then I would have had an opportunity to get different ones.  [The only email I received at that point was my confirmation](https://imgur.com/si3xBbk).  He told me that they do not monitor the transactions so if there is an issue, you will not know until you get denied at the door.
+
+I couldn’t believe that I was not getting an answer as to why my tickets would not work.  I explained to him that this was not just any game – this is a one-time event.  I could tell that he was starting to understand the gravity of my situation.  I kept pushing him about the seller and how this happened.  That’s when he dropped the bomb on me.
+
+He said, and I quote, **“I probably shouldn’t tell you this, but the seller you bought these tickets from is already under investigation for selling bad tickets.”**
+
+So there it is – StubHub knew that this guy is selling bad tickets on their site.  Or at the very least, he is selling the same tickets to multiple people.  The rep told me that he would be investigated which mean absolutely nothing to me standing in the parking lot.  
+
+He told me he would issue a refund for the price of the tickets and offered me 20% off of my next purchase.  It wasn’t then, and it’s not now, about the money.  We missed something that we had our heart set on.
+
+We went to a nearby restaurant and watched the game on TV which honestly felt more painful.  It was basically everything we knew it would be; a great halftime show featuring the past players, sentimental videos, the roar of the sell-out crowd as the game came down to the final shot – with the Kings winning it with 1 second on the clock.  But it wasn’t about the game on the court, it was about the atmosphere in the building.  And we missed it.
+
+The final kick in the teeth came on the drive home as I listened to the post-game on AM radio.  During a commercial break there was a StubHub ad talking about their “guarantee” to get you in the game.  I couldn’t believe it.  
+
+As soon as I got home, I fired off an email to StubHub explaining what happened [PART 1](https://imgur.com/CsPS7id) and [PART 2](https://imgur.com/xhxoupa).  This morning, [I got the response which was basically a form letter](https://imgur.com/05E42wK) with some things changed in it.  They ask me to call them back so that they can further investigate.  I called them and the rep I spoke to had no idea why I was calling in, saying, “oh they already are looking into the seller.  They probably just wanted you to call to verify you received your refund.”  I knew I got my refund last night!  
+
+I asked him if he at least saw the 20% discount on my account for my next purchase and he said, “No I don’t see it but I will make sure I add it right now.  It’s actually a 20% credit based on the purchase price of the tickets you already bought.”  At this point, whatever.  So he tells me based on the price of $356.00, my credit on my account will be $71.20.  Not nearly what I think I should get for what I missed but I know I’m not going to get anywhere with this guy.  He thanks me for using StubHub (!) and the call ends.
+
+A couple of minutes later, [an email comes through showing the credit issued to my account](https://imgur.com/Wjryil1).  $17.80.  Only missed the mark by $53.   At this point, I am at a loss for words.  
+
+I have sent off yet another email re-explaining everything and asking the questions:
+
+* Why does the seller retain control over tickets that he sold and [received money for](https://imgur.com/AlpkvTh)?
+
+* Why does StubHub not warn it’s buyers that you will not make it in to your event if the seller chooses to take his tickets back and resell them to someone else?
+
+* Why was I never advised before I made it to the gate that I was not going to get in?  Had I been advised with enough time, I could have received my refund and still bought other tickets.  By the time I found out I wasn’t getting in and then waited on hold for 40 minutes, I missed my chance to get in.
+
+- Why was the offer of equal or better seats never given to me at the time?  I would have been mad at missing the first quarter, but at least I would have seen the final three quarters.
+
+* Why is there not some sort of seller feedback system to warn buyers of fraudulent sellers similar to eBay?  By their own representative’s admission, this seller was known to StubHub to be a potentially fraudulent seller.  Had I known this guy had issues, I obviously would have avoided the listing.
+
+Here is StubHub’s guarantee [straight from their website](http://www.stubhub.com/fanprotect-update/):
+
+**Summary of StubHub guarantee to Buyers:**
+
+* *You will get your tickets in time for the event*
+
+* *Your tickets will be valid for entry*
+
+* *Your tickets will be the same as those you ordered*
+
+*If any of these things do not occur and you comply with applicable policies and timelines, we will find you comparable or better tickets to the event, or offer you a refund or FanCode for future purchase*
+
+
+I was never, at any point last night, offered comparable or better tickets.  Even though at that point, I would have been mad as I had already missed the first quarter.
+
+
+I apologize for the exceptionally long post.  I want to warn people about StubHub and tell everyone that this company is no better than buying from some stranger on Craigslist.  I hope this gains some traction so that no one else has to go through something as bad as this.",0.88,2016-04-11 02:01:34
+8,Lakers/Raptors fans should turn the Kawhi situation into something positive. Winning team's fan base makes donations to other city's children's hospital?,23808,c9j9bz,https://www.reddit.com/r/nba/comments/c9j9bz/lakersraptors_fans_should_turn_the_kawhi/,1178,1562379416.0,"Toronto and Boston had something like this going during the NHL playoffs. Could be something nice coming out of all this increased attention.
+
+Wow this blew up quick. I'm going to turn off mailbox replies lol.
+
+I'm a Toronto fan so I'll be making a $20 donation to https://www.chla.org/ if Kawhi signs with Toronto. I hope others do the same.
+
+Toronto's Childrens Hospital is Sick Kids Hospital - https://www.sickkids.ca/
+
+I've cross posted this to both /r/torontoraptors and /r/lakers as well to get more eyes on it.
+
+FINAL EDIT: 
+
+So this is a turn of events. Clippers got him. I honestly thought they weren't really in the running anymore and it was a toss up between Lakers and Raptors. As I've said in comments I never meant any disrespect to Clippers fans and congrats to them! When they were brought up I really didn't know how to do a 3 way deal between 2 cities. Now that here here though...
+
+The spirit of the wager was the winning team donates to the other teams kids hospital. Clippes fans have wanted to be in this so much I'm hoping now they step up. I'd suggest donating to either city's kids hospital. You want to keep your donation local give to CHLA, want to show Toronto some love give to Sick Kids in Toronto. for Lakes and Raptors fans I'm suggesting they each give to the other charity. As a Raptors fan I'm still going to give to CHLA. There is no reason not to in my mind.
+
+I'm glad my post could bring people together in a positive way and I know some good has come out of it.
+
+FINAL FINAL EDIT:
+
+I know this post is old now but I wanted to show that I put my money where my mouth is:
+
+https://imgur.com/FgGVGgL
+
+I hope others did as well.",0.84,2019-07-05 19:16:56
+9,People don't talk enough about how awful the Hornets are,23654,cecxoc,https://www.reddit.com/r/nba/comments/cecxoc/people_dont_talk_enough_about_how_awful_the/,2738,1563399363.0,"* One of only 6 teams in the NBA/NFL/MLB/NHL that's never even made a conference finals. They're the second oldest of those 6 teams behind the Clippers.
+
+* They've only drafted 4 All-Stars that went on to play for them despite being around since 1988: Alonzo Mourning, Larry Johnson, Baron Davis, and Kemba Walker. And they've had the most chances to draft All-Stars too: the Hornets rank #1 with the lowest average draft spot in that time.
+
+* Then-coach Steve Clifford wanted the Hornets to draft Donovan Mitchell in 2017, but Rich Cho overruled him and drafted Malik Monk instead.
+
+* The Hornets were seriously looking to draft Pascal Siakam in 2016, but decided to trade their pick for Marco Belinelli who spent one year with the team before being traded to Atlanta in the Dwight Howard trade.
+
+* The Hornets were offered three first-round picks by the Celtics for the #9 pick in 2015. Michael Jordan turned the offer down to pick Frank Kaminsky. Kaminsky was always in the coach's doghouse here, his family hated Charlotte, and Kaminsky signed with Phoenix this offseason.
+
+* After having the worst record in NBA history in 2012, the Bobcats lost out on the #1 pick which was going to be Anthony Davis. They then selected Michael Kidd-Gilchrist with the #2 pick instead of Bradley Beal. In the same draft, they selected Jeffery Taylor with their 2nd round pick, just ahead of Draymond Green and Khris Middleton.
+
+* They did select Kemba Walker in 2011, but they also gave Stephen Jackson, Shaun Livingston, and the pick that would turn into Tobias Harris so they could jump up and draft Bismack Biyombo. They selected Biyombo instead of the player that had been mocked to them in several mock drafts: Kawhi Leonard. They also had Klay Thompson on the board.
+
+* The second best draft pick they've had since their 2004 rebirth has been Emeka Okafor.
+
+* They haven't won a playoff series since April 2002 when LeBron was in high school, Zion was 1 year old, The Scorpion King was #1 at the box office, Ashanti had the #1 song in America, and Hollywood Hogan was WWE Champion. The closest they've come to winning a series since then was the Purple Shirt Guy game when they were up 3-2 vs. the Heat and had cut a 9 point Heat lead to 2 with 1:30 left. A Hornets fan known as Purple Shirt Guy started inexplicably jawing with Dwyane Wade who proceeded to drop a quick 5 points to tie the series up. The Hornets would go on to lose Game 7 in Miami by 27 points.
+
+* Despite letting their best player ever walk for nothing, they're hard-capped at the moment. They'll be hard-capped this season with a starting 5 of Terry Rozier, Cody Zeller, Nic Batum, Dwayne Bacon, and Miles Bridges. Bismack Biyombo will be making $17 million off the bench, Marvin Williams will be making $15 million off the bench, and Michael Kidd-Gilchrist will be making $13 million off the bench. Nic Batum (who has turned into a completely worthless player) will be entering the 4th year of a 5 year deal (final year a player option) that will pay him $25.5 million. He'll almost certainly use that player option in 2020 and will be making $27.1 million.
+
+* The Hornets hired a new radio play-by-play guy before the start of the 2018-19 season that grew up a Hornets fan and was a beloved radio host in Charlotte. He was fired in the middle of a week in March with no explanation and no explanation has come out since.
+
+* Michael Jordan hasn't given an interview where he's discussed the Hornets in any detail (besides Kemba Walker) since 2014.
+
+So as you bitch and complain about how your team hasn't done anything in a long time or how you only have one All-Star and you're disappointed you didn't get another, remember that things could always be worse.",0.92,2019-07-17 14:36:03
+10,Rachel Nichols and the ESPN crew were extremely disrespectful last night,23521,bowigy,https://www.reddit.com/r/nba/comments/bowigy/rachel_nichols_and_the_espn_crew_were_extremely/,2420,1557946856.0,"I’m not sure if this has been posted by someone already, but I just wanted to say that the things they let Rachel Nichols and Woj say during the draft lottery were blatantly disrespectful to all of the teams, save for maybe the Knicks, to all of the other draft picks, and to the Pelicans. Not to mention the fact that everything they were saying was being blasted throughout the entire venue. 
+
+First off, there were over a dozen teams in attendance last night. The only one that they chose to talk about: the Knicks. They talked unbelievably liberally about Zion going to NY, as if they had already won it. However, as I doubt any of them realized, the Knicks had the same chance of obtaining the #1 pick as the Cavs and the Suns, the latter of which I don’t even think was mentioned once on the broadcast.
+
+Then, there was Zion. Rachel Nichols kept referring to the #1 pick as “who gets Zion.” Every time she said that or mentioned the kid, the camera would cut to the embarrassed 18 y/o who was just there to see what team picks where. There is no guarantee that Zion will go #1 overall. It is very very likely, but not guaranteed. Not to mention that they did this in front of a large number of draft prospects in attendance. What does all of this coverage and press mean to them if it’s only going to Zion?
+
+And finally, the Pelicans. Woj made every team’s case for a possible AD trade that night. Whenever a team with chances of getting a top 10 pick was mentioned, Woj had to slip in that they may be looking to use that pick as an “asset” to trade for AD. I’m honestly very happy the Pelicans won because the disrespect they were receiving the whole night was greatly trumped when they won the first pick.
+
+Now I get all of these things are said ten times over on any other sports news broadcast. However, as I said, Rachel Nichols audio was blasted for everyone at the event to hear, including the draft prospects and team representatives. After watching this, I asked my dad if there was ever a time where the media would be able to speak this liberally about sports in front of all of those people. He said “no.”
+
+EDIT: Apparently, there are rumors circulating that Rachel Nichols was drunk. Honestly...that’s not surprising",0.88,2019-05-15 12:00:56
+11,Why LeBron would sign with every NBA team,23217,8k8wej,https://www.reddit.com/r/nba/comments/8k8wej/why_lebron_would_sign_with_every_nba_team/,1314,1526630026.0,"**Atlanta Hawks**
+
+LeBron is secretly a huge Twister fan. He will join the Hawks so he can film Twister 2 with their owner’s wife on their off days.
+
+**Boston Celtics**
+
+LeBron misses Kyrie. He wants to play basketball with his friend and that means playing for the Celtics.
+
+OR
+
+LeBron wants to troll Kyrie. He will go to Boston management and ask them to trade Kyrie back to Cleveland if they want him to join. Danny Ainge will agree because he has no heart.
+
+**Brooklyn Nets**
+
+LeBron loves NY. He will go to New York to sign with the Knicks to play in historic Madison Square Garden. However, during the drive to the stadium, his driver makes a wrong turn and they end up in Brooklyn. LeBron realizes the mistake, but shrugs his shoulders and signs with the Nets instead, because he will have the same results with either the Knicks or Nets.
+
+
+**Charlotte Hornets**
+
+LeBron wants to prove he’s better than Michael Jordan. He will sign with the Hornets to taunt MJ directly. He will win the Finals in 2019 with the Hornets and won’t let MJ touch the trophy. After the season, LeBron will buy out MJ’s shares and he will become majority owner. He will then trade himself to a better team because Dwight is too annoying and nobody will agree to LeBron’s trade proposals involving Dwight.
+
+**Chicago Bulls**
+
+LeBron wants to prove he’s better than Michael Jordan. He will sign with the Bulls so he can win 7 championships to pass what MJ did.
+
+
+**Cleveland Cavaliers**
+
+LeBron loves Cleveland as much as he hates moving. LeBron will re-sign with the Cavs, because it’s more convenient than moving to a different city.
+
+**Dallas Mavericks**
+
+LeBron is still haunted by the 2011 Finals. He will go to Dallas to learn from the true GOAT Dirk Nowitzki. There, LeBron will lead the Mavs all the way to the number 1 seed in the West, only to lose to the Warriors in the first round after KD leaves for India to re-join his snek charmer friend.
+
+**Denver Nuggets**
+
+LeBron loves chicken nuggets. He will sign with Denver, only to be disappointed. He then will retire and start his own chicken nugget company.
+
+**Detroit Pistons**
+
+LeBron will become the new Pistons President of Basketball Operations. His first act in his new role will be to sign himself as the head coach/starting SF. His second transaction will be to trade Blake Griffin to the Cavs for the 8th pick in the draft and salary filler, because LeBron will blackmail Dan Gilbert into doing it.
+
+**Golden State Warriors**
+
+LeBron wants all the ringz. He will sign with the Warriors for the veteran minimum so he can win not 1, not 2, not 3, not 4, not 5, not 6, not 7, not 8, not 9, but 10 championships.
+
+**Houston Rockets**
+
+LeBron loves space. He will sign with the Rockets so he can go to NASA and fly an actual rocket into space to find better competition on other planets. Mike Dan Tony will be confused why LeBron doesn’t show up to their games. Mike, he’s in space, deal with it.
+
+**Indiana Pacers**
+
+LeBron loves pace. He will sign with the Pacers so he can out-pace the other NBA players and win a championship. He will also become best friends with Lance Stephenson and the two will call out plays to each other by blowing in each other’s rear, I mean ear.
+
+**LA Clippers**
+
+LeBron wants to live in Hollywood, but doesn’t want to be under the shadow of Laker greats. If he can just lead the Clippers to the conference finals, they would rename their franchise LeBron’s Clippers.
+
+**LA Lakers**
+
+LeBron wants to live in Hollywood, but doesn’t want to be under the shadow of Clipper goods. He also wants to learn from the great Lavar Ball on how to play basketball as good as him.
+
+**Memphis Grizzlies**
+
+LeBron will not sign with the Memphis Grizzlies.
+
+**Miami Heat**
+
+LeBron will go back to Miami because he left his white headband there and wants it back.
+
+**Milwaukee Bucks**
+
+LeBron loves freaks. He will join the Greek Freak and sign with the Bucks. Then they will sign Rick James to preform every halftime so he can sing LeBron’s favorite song “Super Freak”
+
+**Minnesota Timberwolves**
+
+LeBron wants to learn from former MVP Derrick Rose. He also wants to torture his body and allow Coach Thibs to play him all 48 minutes for all 82 games.
+
+**New Orleans Pelicans**
+
+LeBron loves smoothies. He will join the Brow and sign with the Pelicans, so he can get unlimited smoothies at the Smoothie King Center.
+
+**New York Knicks**
+
+LeBron loves NY. He will go to New York to sign with the Knicks to play in historic Madison Square Garden. During the drive to the stadium, his driver makes the correct turn and they end up in MSG. LeBron realizes this and signs with the Knicks.
+
+**OKC Thunder**
+
+LeBron will sign with the Thunder so he can play with Russell Westbrook for one season, then leave after that and become an even better player.
+
+**Orlando Magic**
+
+LeBron will take his talents to Central Florida. He will sign with the Magic and lead them to another Finals lost.
+
+**Philadelphia 76ers**
+
+LeBron will sign with the 76ers because he trusts the process. LeBron will single handedly play bad for 3 seasons and tank so that the 76ers will get more draft picks to add to their squad. Then by age 37, LeBron will have what he needs to win another Eastern Conference Finals.
+
+**Phoenix Suns**
+
+LeBron loves hot-related teams. He will sign with the Suns and win 2 championships to prove to Pat Riley that he isn’t so special with his so called “Heat” for the “Suns” are the hottest thing in the universe.
+
+**Portland Trail Blazers**
+
+LeBron loves Nike. He will sign with the Blazers so that he can spend his off days at Nike headquarters creating new shoes.
+
+**Sacramento Kings**
+
+LeBron is the King. He will sign with the Kings, because that’s where he belongs.
+
+**San Antonio Spurs**
+
+LeBron loves Coach Pop. He will sign with the Spurs to learn from him, only to find out Coach Pop actually has no idea what he’s doing and is just really lucky. LeBron will use that luck to convince Kawhy? To stay and they will win a championship every other year in 2019, 2021, and 2023.
+
+**Toronto Raptors**
+
+LeBron will sign with the Raptors just to check up on them and make sure they are ok.
+
+**Utah Jazz**
+
+LeBron loves jazz. He will sign with Utah only to find out they don’t actually have jazz. He will then force a trade to New Orleans to be close to real jazz and because he remembered that he loves smoothies.
+
+**Washington Wizards**
+
+LeBron loves politics. He will sign with the Wizards so he can play basketball and also become the next president of the United States in 2020.
+
+
+
+**EDIT**
+
+Some of you have been asking for this, so here you go...
+
+**Seattle Supersonics**
+
+LeBron won't sign with this team because it doesn't exist.",0.87,2018-05-18 00:53:46
+12,I sold Josh Hart a Switch in 2017. And he still owes me. (Repost from /Lakers),23063,brvala,https://www.reddit.com/r/nba/comments/brvala/i_sold_josh_hart_a_switch_in_2017_and_he_still/,1756,1558593390.0,"#UPDATE: http://imgur.com/gallery/c8btRei
+
+Justice is served! Josh reach out and sent me this.
+Thank you everyone for you help and turning this into a success story!!!!!
+
+Back in the summer of 2017, we drafted Josh Hart out of Villanova with the 30th pick. I loved the pick cause I knew the kid was a baller and gave us some nice depth.
+He made a tweet that summer while he was in Vegas getting ready for the summer league, about wanting to buy a Nintendo Switch. My little brother jokingly replied to him without expecting a response, but to our surprise, he did.
+The conversation went as follows:
+
+ http://imgur.com/gallery/WkSFMJm
+
+We agreed on 200 dollars, tickets to a future game and the chance to meet with him for a Switch and Zelda Breath of the Wild. I shipped it to him overnight. As a life long Laker fan (I have a tattoo so I'm not playing around) I was ecstatic at having some kind of connection to a Laker, let alone one I genuinely liked.
+
+He did PayPal me the 200 right when he got it, and he did reach out to me about what tickets I wanted. I asked him for the December 18th game...which was Kobe Bryant's jersey retirement. I knew the odds of getting those tickets were slim, but of course I'm going to shoot my shot at that game.
+
+That was the last I heard from him. I have reached out to him through my personal Twitter, and my brother has attempted to as well. He reads the message, but never replies. I have joined his Twitch live streams and tried to get his attention there too, and he seems to ignore me there too.
+
+I have no ill will towards the man, I just want what we had agreed upon and not be ghosted. I feel waiting 2 seasons and still no tickets is pretty absurd at this point, and the lack of communication is the real ball buster.
+
+So please Josh....just pay up bro.
+
+EDIT: http://imgur.com/gallery/mbNQqig 
+
+Some personal DMs from me to him. I forgot I tried to invite him to my wedding 🤣🤣🤣🤣",0.92,2019-05-22 23:36:30
+13,Stephen Jackson’s response to DeSean Jackson’s anti-semetic post is very disappointing,23049,hn38n0,https://www.reddit.com/r/nba/comments/hn38n0/stephen_jacksons_response_to_desean_jacksons/,6471,1594185202.0,"MODS- I am reposting this without calling Stephen Jackson anti-semetic in the title because one of you had said that was the problem with the first posts. Because DeSean’s post was a quote attributed to Hitler, it cannot be debated that it wasn’t anti-Semitic and thus I don’t see any possible errors with the title. PLEASE leave this up for discussion. We need some kind of discourse.
+
+I’m amazed and shocked by this. For those who don’t know, [DeSean Jackson posted a quote from Hitler](https://imgur.com/gallery/gSb7eyd) (edit- now said to be Farrakhan but written as Hitler) last night on his Instagram. Stephen Jackson replied with [this video today](https://streamable.com/yk2vur) about the whole situation, saying Jackson was “speaking the truth” and trying to get educated. The comments of the post also encourage the same “Jews control everything” hate that have fueled terrors of the past, with [Stephen Jackson even replying to one of them.](https://imgur.com/a/7YFggCE?fbclid=IwAR325lH10U5judJVIOxr3o3Ay-OUV6k7muLRgMCYMTzQxkoNVZPS58Cy-uI)
+
+I’m extremely disappointed by Stephen Jackson (who has been a face of BLM) as well as this not getting traction in the media yet and even getting removed here. We say we are anti-hate but we can’t have double standards when we do so.
+
+**EDIT-** Stephen Jackson deleted the video and has posted [this](https://www.instagram.com/p/CCXdZpzlVEf/), basically doubling down on his comments with a follow-up just as infuriating as the first post. He has seen a bit of backlash on IG (and some praise) but this should really be a bigger story given his platform and following. **How is it getting almost no traction in the NBA world?** The majority of the responses to this thread here have been really encouraging to see, and to the people commenting “Well, Jews do run everything”… I urge you to read about how dangerous this notion has been in history, particularly in the context of the Holocaust. Lastly, u/Daveed1297 DMd me to use this space to help get a petition he created a bit of traction. I’m not sure if rules allow me to post it here so, to be safe/make sure this important thread stays up, you can click on the most recent post from u/Daveed1297 to find it.",0.88,2020-07-07 22:13:22
+14,Vanessa Bryant statement on instagram,22871,evwvp9,https://www.reddit.com/r/nba/comments/evwvp9/vanessa_bryant_statement_on_instagram/,979,1580375227.0,"https://www.instagram.com/p/B77K8XWDY7O/?igshid=14w0zi9nsg2jy
+
+Her first statement after the tragedy. 
+
+“My girls and I want to thank the millions of people who’ve shown support and love during this horrific time. Thank you for all the prayers. We definitely need them. We are completely devastated by the sudden loss of my adoring husband, Kobe — the amazing father of our children; and my beautiful, sweet Gianna — a loving, thoughtful, and wonderful daughter, and amazing sister to Natalia, Bianka, and Capri. We are also devastated for the families who lost their loved ones on Sunday, and we share in their grief intimately. There aren’t enough words to describe our pain right now. I take comfort in knowing that Kobe and Gigi both knew that they were so deeply loved. We were so incredibly blessed to have them in our lives. I wish they were here with us forever. They were our beautiful blessings taken from us too soon. I’m not sure what our lives hold beyond today, and it’s impossible to imagine life without them. But we wake up each day, trying to keep pushing because Kobe, and our baby girl, Gigi, are shining on us to light the way. Our love for them is endless — and that’s to say, immeasurable. I just wish I could hug them, kiss them and bless them. Have them here with us, forever. Thank you for sharing your joy, your grief and your support with us. We ask that you grant us the respect and privacy we will need to navigate this new reality. To honor our Team Mamba family, the Mamba Sports Foundation has set up the MambaOnThree Fund to help support the other families affected by this tragedy. To donate, please go to MambaOnThree.org. To further Kobe and Gianna’s legacy in youth sports, please visit MambaSportsFoundation.org.
+
+Thank you so much for lifting us up in your prayers, and for loving Kobe, Gigi, Natalia, Bianka, Capri and me. #Mamba #Mambacita #GirlsDad #DaddysGirls #Family ❤️”
+
+R.I.P Black Mamba, Gigi  and all those involved.",0.94,2020-01-30 01:07:07
+15,The Outrage of NBA Fans is Disproportionate.,22832,byskdn,https://www.reddit.com/r/nba/comments/byskdn/the_outrage_of_nba_fans_is_disproportionate/,2960,1560163772.0,"I'd like to preface this by stating that what GSW part-owner Mark Stevens did in game 3 was unacceptable. He pushed Kyle Lowry and deserves to be fined and suspended from attending games.
+
+&nbsp;
+
+However, it is my opinion that the outcry has been wildly disproportionate to other acts of violence in the NBA.
+
+&nbsp;
+
+I realise that it was less about the fact that the 60 year old Silicon Valley venture capitalist might've hurt Lowry with his left handed push and was more just the fact that he laid his hands on a player in an unfriendly way. 
+
+&nbsp;
+
+The public outcry has been intense. People are calling for a lifetime ban and demanding that he be forced to sell his shares in the team. The incident is already written on his Wikipedia page.
+
+&nbsp;
+
+People are out for blood with Kyle Lowry leading the charge.
+
+&nbsp;
+
+>""A guy like that, showing his true class, and he shouldn't be a part of our league. There's just no place for that.""
+
+&nbsp;
+
+>""The support I've gotten from fellow players, the league, has been unbelievable. With that being said, I think more should be done.""
+
+&nbsp;
+
+>""I have 2 young children and being able to hold myself to a certain standard. Which I do. I hold myself to a high, high standard.""
+
+&nbsp;
+
+These are all quotes from Kyle Lowry. The same Kyle Lowry who in 2012 pled guilty to the battery of a female referee at a charity basketball game. 
+
+&nbsp;
+
+This was one of his quotes on that day:
+
+&nbsp;
+
+>""B****, meet me outside. I will kick your a**!""
+
+&nbsp;
+
+He then proceeded to throw a basketball at her for a second time, as hard as he could. He (potentially) received a fine of up to $1,000 and was suspended for 0 games. 500 times less than Mark Stevens got for his push. The fine was from a judge in a courtroom and not even from the league. The league did nothing. There is no mention of this on Lowry's wikipedia page. 
+
+&nbsp;
+
+If Lowry thinks $500,000 and a year ban is soft for Mark Stevens then I wonder what he thought about his $0, 0 game punishment for battery of a woman in 2012?
+
+&nbsp;
+
+In August of 2010, beloved NBA clown Lance Stephenson pushed his pregnant girlfriend down a staircase and then proceeded to bash her head against the stairs. 
+
+&nbsp;
+
+Two years prior to this he sexually assaulted a 17 year old girl at his high school.
+
+&nbsp;
+
+He went on to play over 500 NBA games and earn over $35 million dollars. 
+
+&nbsp;
+
+At the time of the staircase attack, he hadn't played a single NBA game. 9 years later, he's still in the league. 
+
+&nbsp;
+
+I was a fan of Lance but only because I'd never heard this mentioned in a single one of his games. I even paid actual money to buy his Charlotte Hornets jersey. I wore his name and number on my back. Call me old fashioned, but I think that the second you bash your pregnant girlfriend's head against some stairs, you should forfeit the privilege of playing NBA basketball.
+
+&nbsp;
+
+OJ Mayo and Tyreke Evans were both given 2 year bans for violating the NBA anti-drug program. The NBA is prohibited from disclosing what type of drugs they were found to have taken but reports suggest the violations were related to ""drugs of abuse"" which implies they were recreational and not performance enhancing.
+
+&nbsp;
+
+Jason Kidd was fined $200 (by a judge) for abusing his wife. He was suspended for 0 games.
+
+&nbsp;
+
+Darren Collison, Jason Kidd, Jason Richardson. The NBA has a history of letting abusers off lightly. All just because they're good at basketball.
+
+&nbsp;
+
+I'm a firm believer in forgiveness and giving people second chances but if Kyle Lowry and NBA fans think Mark Stevens should be banned for life then Kyle Lowry should've never become a Raptor, Jason Kidd should not be the league's highest paid assistant coach and Lance Stephenson should've never played a minute in the NBA. 
+
+&nbsp;",0.79,2019-06-10 03:49:32
+16,Why Lebron James should come to the Orlando Magic: A last plea.,21672,8u2b2t,https://www.reddit.com/r/nba/comments/8u2b2t/why_lebron_james_should_come_to_the_orlando_magic/,1181,1530065661.0,"Dear Mr. Bron,
+
+Look bitch, I'm gonna cut it straight.  I don't have a fancy pitch like the rest of these teams.  I'm just gonna be real.  We're desperate dude. The troops are low on morale and I don't think they'll survive another winter like this.  I know we don't have much, but I'm gonna try to at least show you what we have.  Any help will do.  We'll even take Bronny Jr.  Right now.
+
+1. **We've got young meat who will do literally whatever you say.** -  We've got a lot of talent, and absolutely no ego whatsoever. We're the South Central Louisiana State Mud Dogs of the NBA. You can make the rest of the team wash your feet between quarters and they'd do it.  This will be a drama free zone.  You're the king and they are your squires.  But like, please don't abuse this power and sell anyone into human trafficking rings or anything.  I know Evan's got a pretty mouth but don't okay
+
+2.  **Orlando is a trash city just like Cleveland** - Look, you're an Ohio boy through and through.  You'd hate Los Angeles.  Buncha liberal hippies with their ""activated charcoal"" and their ""functioning state government"" and all that other PC nonsense.  You dont need that in your life.  Plus those taxes are you kidding me?  Nobody in Florida pays taxes.  If you can prove to the state that you're physically capable of tackling a gator, you don't have to pay state taxes.
+
+3. **We're about as physically far away from Golden State as you can get.**
+ 
+4. **...""But what about Miami?""** - Miami can eat my ass.  You've already been there Bron.  They're gonna expect 2010 Bron and when father time eventually catches up with you in 2050 they're gonna riot and start calling you names in spanish.  You don't want that kinda stress in your life.  Anybody who would call you names in spanish lives far away in Kissimmee.  We will protect you.
+
+5. **The kids love Disney** - You're a family man now Bron.  Think about the kids.  I mean who wouldn't love all year access to Disney World?  Who doesn't love 10 dollar bottles of water and roaving hoardes of Brazilian teens yelling at birds and stuff?  It's great for the whole family.
+
+No rush bron.  I'm just sayin, think about it.",0.88,2018-06-26 19:14:21
+17,Carmelo Anthony was never a top 5 player. Not even once.,21050,8xkmtb,https://www.reddit.com/r/nba/comments/8xkmtb/carmelo_anthony_was_never_a_top_5_player_not_even/,2060,1531222303.0,"I was in the ""538 Hates Melo"" thread, about to reply to someone arguing ""Melo actually used to be top 5,"" then I decided, fuck it. I've *always* hated melo's game. 
+
+What follows is me trying to illustrate that not only was Melo not a top 5 player *of his era*, he was never a top 5 player at all.  Not even fucking once. I'm doing this for me.
+
+### Melo, at a glance
+* only twice made it out of the first round
+* 215th all-time in ws/48, tied with Corey Maggette
+* not in top 250 for career TS%
+* not in top 250 for career Offensive Rating
+* made up for this relative inefficiency by not passing much or trying on defense
+* [tried to combat questions about work ethic by posting video of himself jogging](https://www.instagram.com/p/BWCHXsYDoXx/?utm_source=ig_embed)
+* [this entire article](http://www.espn.com/espn/feature/story/_/id/11904296/new-york-knicks-forward-carmelo-anthony-wants-bulletproof-reputation)
+
+#### The Most Overated Player of his Era
+
+Anthony has made 10 all-star games, and was often cited  as a top 5 player.
+
+Carmelo's net offensive and defensive rating are the exactly the same (108). That means he's giving up a lot of what he gives you. And 108, as mentioned above, isn't anything special.  [Here is the full list of players who have made at least 3 all-star games with Carmelo's defensive rating or worse, capped at Melo's offensive rating.](https://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&match=combined&type=totals&per_minute_base=36&per_poss_base=100&season_start=1&season_end=-1&lg_id=NBA&age_min=0&age_max=99&is_playoffs=N&height_min=0&height_max=99&birth_country_is=Y&as_comp=gt&as_val=3&pos_is_g=Y&pos_is_gf=Y&pos_is_f=Y&pos_is_fg=Y&pos_is_fc=Y&pos_is_c=Y&pos_is_cf=Y&c1stat=def_rtg&c1comp=gt&c1val=108&c2stat=off_rtg&c2comp=lt&c2val=108&order_by=ws)
+Carmelo, Joe Johnson, Tom Chambers, Latrell Sprewell, Richard Hamilton. Carmelo is the best version of *that* tier of player. Yet he has, to this point, [made more money than LeBron James.](https://amp.businessinsider.com/images/548b57376da811643acd3be8-750-563.jpg)
+
+[Here's the list of those same guys who have made the hall-of-fame.](https://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&match=combined&type=totals&per_minute_base=36&per_poss_base=100&season_start=1&season_end=-1&lg_id=NBA&age_min=0&age_max=99&is_playoffs=N&height_min=0&height_max=99&birth_country_is=Y&is_hof=Y&as_comp=gt&as_val=0&pos_is_g=Y&pos_is_gf=Y&pos_is_f=Y&pos_is_fg=Y&pos_is_fc=Y&pos_is_c=Y&pos_is_cf=Y&c1stat=off_rtg&c1comp=lt&c1val=108&c2stat=def_rtg&c2comp=gt&c2val=108&order_by=ws) You don't have to click on the link, because it's nobody.
+
+
+###Melo in Denver 
+""Melo was actually good in denver!"" Sure!  ""Melo was a top 5 player in denver!"" [No.](https://www.youtube.com/watch?v=6DCJXYbBB7w) While more dynamic than his plodding, interminably jab-stepping, Knicks iteration, he was never actually a top 5 player. He only made it out of the first round once.
+ 
+####First: Melo has never been better than LeBron. 
+Lebron was born on December 30th, 1984. He was immediately better than Carmelo. Every second since that moment, LeBron has been increasing the distance between them. They came into the league at the same moment: one committed to perpetual improvement, the other, Carmelo Anthony. Twin spaceships traveling at different velocities. To calculate the distance between them now, you'd have to figure out some way to make Melo's spaceship actually start going in reverse and then explode. I'm too dumb to figure that out, so we're moving on.
+
+####Second: Denver Melo was  *never* better than Kobe or Dirk
+From 2005-2012, there wasnt a single season he was better than Kobe or Dirk. Melo *never* finishes above these guys in all-nba over this period. Not once. More importantly, with the benefit of retrospect, we can see these two (along with LeBron) were great every season, always healthy, and whenever they had *any* talent around them, contended for titles/MVPs. They got everything out of their team, year after year. There's not a single season you wouldn't trade Melo for one of these three and improve Denver.  (To preemptively shut down the idea Melo was better than Dirk in 2009, when he beat the Mavs in the second round: Dirk averaged 34/12/4 on 53/38/92 shooting in that series--if you put Dirk on that Nuggets team, they would've been even better. Dirk was also 1st team All-Nba to Melo's 3rd. Melo also didn't even make the all-star team.)
+
+So: Melo is at best, the 4th best player any season from 2005-2012. I now just have to establish that there were at least *2* other guys who were better each season during that period, and I can knock Denver Melo out of the top 5 rankings.
+
+#### Numbers 4, 5, 6 
+Here i'm going to list three players (in any order), that I think were conclusively better than Melo in each corresponding season. Why three, when I only need two? Because fuck Melo. Honestly, in a lot of these seasons I could list ~10+ players. Finally, just because someone like Nash or Duncan drops out doesnt necessarily mean I think they're no longer better than Melo--they probably are--it's just that there are 3 more inarguable players. 
+
+##### 2005-2011
+2005 | 2006 | 2007| 2008 | 2009 | 2010 | 2011
+- | - | - | - | - | - | -  
+Nash | Nash | Nash | Dwight | Dwight | Dwight | Rose
+Duncan | Duncan | Duncan | CP3 | CP3 | Durant | Durant
+Shaq | Wade | Wade | Garnett | Wade | Wade | Wade
+
+
+
+### Melo in New York
+Unlike his team USA compatriots, Melo was uninterested in forming a superteam, instead taking the money and forcing his way to the Knicks. While not as athletic as Denver Melo, it was in NYC where Anthony peaked as a shooter. It's also here where he gained more weight and started missing lots of games. He won *one* playoff series in his entire time with the Knicks. In the east, guys.
+
+And then it got worse. Knicks Melo never made the playoffs, let alone an all-nba team after 2013, so we can pretty much throw all those years out for top 5 purposes. Just because people still *thought* he was good, I went all the way to 2015, where became pretty clear he's wasnt even top 15 anymore. Kobe and Dirk start declining here, so I expanded it to **4** players besides LeBron. Still wasnt very hard. Durant basically slots in for Dirk as the new non-Lebron forward always clearly ahead of Melo.
+
+As a sidenote: the Denver Nuggets won more games than the Knicks in 3 of the next 4 seasons (including 57 in 2012), and only finished behind in 2014 by 1 game (37 to 36). 
+ 
+##### 2012-2015
+
+2012| 2013| 2014| 2015
+- | - | - | -
+Kobe | Duncan | Steph | Steph |
+Durant | Durant | Durant | Durant |
+CP3 | CP3 | CP3 | Westbrook | 
+Dwight | M.Gasol | Harden | Harden |
+
+##### 2013: The year Melo might have been top 5
+Ok, even I have to admit this. In 2013, Melo has a decent case for his only top 5 season. He leads the league in scoring, shoots a good percentage, and even wins a playoff series. It's by far his best season as a Knick, and likely, the best season of his career. He has a career high in ws/48, with .184, and finishes 9th overall in offensive win shares (really high for him).
+
+Melo also finishes 3rd in MVP voting, and while I think this is partially because of his exaggerated reputation at the time (and being in NYC), he did have a great year. 
+
+Still though: LeBron, Durant, clearly better. CP3 has far better advanced stats and won more games in a harder conference.  Tim Duncan makes 1st team all-nba, and is the best player on the Spurs team that goes to the finals. Marc Gasol wins Defensive player of the year, wins more games, and goes to the western conference finals. He finishes *3rd* in VoRP behind LeBron and Durant. It's counter-intuitive, but Gasol has a really strong argument. That's 5, but we also have Harden and Curry starting to push their way into the conversation, and honestly, I'd take either of them over Melo in 2013. That's 7. 
+
+Maybe I'm wrong there. Maybe Melo was top 5 in 2013. But that would be his *one* year as a top 5 player. One very debatable season. The next year he misses the playoffs and falls out of the conversation forever.
+
+### Melo in OKC
+
+Nope",0.85,2018-07-10 04:31:43
+18,‘Twas the night before Kawhismas,20401,c8wgi4,https://www.reddit.com/r/nba/comments/c8wgi4/twas_the_night_before_kawhismas/,508,1562232484.0,"‘Twas the night before Kawhismas and all through r/nba, not a keyboard was silent, not even a... mouse. 
+
+The shitposts were posted by nephews with care, 
+in hopes that sweet upvotes soon would be there,
+
+The Canadians were nestled all snug at Tim Hortons, visions of Nav dancing, they cried out “oh Board Man” 
+
+And Magic in LA and Ballmer there too,
+They’d just calmed the hell down, which was long over due.
+
+When all of a sudden there arose a new tweet, 
+People sprang to hit new, to see who had who beat. 
+
+Away to their phones they flew like a flash
+They smashed on f5, and prayed the whole internet didn’t crash.
+
+Lebron sees his chance of a new superteam grow, 
+But ask him if it is one and I’m sure he’ll say no,
+
+When what to our wondering eyes should appear,
+Why a brand new post right there in the clear,
+
+With a little bold writer, so lively and quick,
+I knew in that moment a woj bomb I did click,
+
+More rapid than raptors his words they came,
+And he stayed very silent, his sources he never names,
+
+Now SIMMONS, now SHAMS, now SKIP and SHANNON, 
+on RDA, on Masai, on Windhorst and JALEN,
+
+To the top of the window! To the Top of r/all!
+The excitement’s so palpable there’s sweat on my balls. 
+
+As band wagoners that before a big trade trade fly,
+When someone calls out their flair switch, they say “bye bitch, bye.”
+
+False alarm?! Yes sadly, Woj did have some news,
+about the Greek freak?!... YES! but just about his new shoes,
+
+They sprang to their helicopter, the cameramen they did go, 
+And away they all flew to a car, #tbt to that white bronco. 
+
+But I heard the Klaw say as he drove out of sight,
+He.He.He. Indubitably, Happy Kawhismas to all, and to r/all good night!",0.86,2019-07-04 02:28:04
+19,I sold Josh Hart a Nintendo Switch in 2017. And he has paid me back,20177,collc1,https://www.reddit.com/r/nba/comments/collc1/i_sold_josh_hart_a_nintendo_switch_in_2017_and_he/,1015,1565490032.0,"A few months ago I posted about my situation with now former Los Angeles Lakers Guard, Josh Hart. If your not familiar with the story, [here it is](https://np.reddit.com/r/nba/comments/brvala/i_sold_josh_hart_a_switch_in_2017_and_he_still/?utm_source=share&utm_medium=web2x).
+
+I never expected it to get the kind of attention it did. My plan was to share a pretty unique story with people, hopefully get Josh's attention and just get some tickets. Comments were hilarious and people's opinions are always good to read. I was pretty taken back with the kind of support people where willing to give me, one person going as far as to wanting to start a GoFundMe to get some tickets. So just a quick shout out to the people of Reddit, you guys are amazing.
+
+July 6th, the Lakers acquired Anthony Davis. The Woj Bomb hit my phone and when I came across Josh Hart's name in the trade, I couldn't help but laugh. My friends hitting me up about it and even some Redditors taking some jabs at me. [Sacrifices had to be made I suppose.](https://np.reddit.com/r/lakers/comments/c134ht/some_sacrifices_had_to_be_made_for_anthony_davis/?utm_source=share&utm_medium=web2x) Josh and I actually contacted each other a few times over Twitter after the trade. He assured me that he was still going to take care of me, and I wasn't in any kind of rush. The kid just got traded, and I imagine for a young player that can be pretty hectic.
+
+[He sent me a box in the mail.](https://imgur.com/a/gvtdKou) A pair of Nike Lakers Shorts, a Lakers warm up shirt, a Lakers long sleeve shirt, 2 hats and a bag. But the cherry on top...a pair of signed game worn Kobe's, and a signed game worn number 5 rookie Josh Hart jersey. I have never owned anything game worn before, so I was floored. The smile this put on my face made me realize, I am completely happy with what I got.
+
+Being a life long Lakers fan, I jumped at the opportunity to sell a Laker something just to have a cool story out of it. At the end of the day, I have a better story than I could have imagined. Am I going to get tickets? I don't know, and I'm not expecting them. I can always buy tickets, (as expensive as they may be) but this story and what I got in the end is worth more to me than tickets.
+
+If there is anything more that I could ask for I guess, would be to meet Josh in person and have a laugh about all of this. That, and maybe a few rounds of Smash Bros. 4 stock, no items, Final Destination. I play a pretty mean Snake.
+
+Edit: Apologies if I came off as asking for more. That was not my intention whatsoever. I could've made a better choice of words, but I don't expect anymore. I could've done without the smash Bros comment, but I wasn't asking for more. I got more than I asked for.",0.87,2019-08-10 19:20:32
+20,"[Players on Kawhi] The most he talked was on the court..every time the ball went through the net he just said, “Bucket..” that was it.. You couldn’t score on him, so that’s what he would say: “Nope, nope..” grabbing a rebound.. “Board man gets paid..” He’d make more sounds than he actually talked.",19093,bwsr30,https://www.reddit.com/r/nba/comments/bwsr30/players_on_kawhi_the_most_he_talked_was_on_the/,1438,1559704661.0,"I saw [this tweet](https://twitter.com/themistermarcus/status/1135708426120683522?s=21) with a picture of some of the quotes, and calling Kawhi a psychopath. I found the quotes came from [this Athletic article](https://theathletic.com/1007038/2019/06/03/the-board-man-gets-paid-an-oral-history-of-kawhi-leonards-college-days/) by Jayson Jenks.
+
+
+> Gay: The most he talked was on the hard court, and Kawhi was not afraid to let you know that you weren’t going to score on him, that you couldn’t get past him or that he would score on you. Every time the ball went through the net, he just said, “Bucket. Bucket.” That was it.
+
+> Tyrone Shelley, guard: Most people say it like, “Oh, I’m about to get buckets on you.” He was just like, “Buckets. Layup.” Just one word.
+
+> Shelton: He’d be like, “You’re not scoring. You’re not doing anything.” Or he’d be like, “No, no, no.” He’d just move his feet and say, “No.”
+
+> Gay: You couldn’t score on him, so that’s what he would say: “Nope, nope, nope.” And when he would score on you: “Bucket. Bucket.”
+
+> LaBradford Franklin, guard: If he was grabbing a rebound, he’d say, “Give me that” or “Board man” or “Board man gets paid.”
+
+> Coach Hutson: If I heard it once, I heard it 50 times. “Board man. I’m a board man.” That’s what he said. Absolutely. “I’m a board man. Yeah, I’m a board man. Board man gets paid.” He spoke in phrases like that.
+
+> Shelley: Instead of saying, “We need to walk to the store” or “Let’s go to the store,” he’d just say, “I’m up.” When he leaves, he just says, “I’m up.”
+
+> Shelton: If he joked, it would be like one or two comments, and he’d go like, “Yeeee.” He’d make more sounds than he actually talked.",0.95,2019-06-04 20:17:41
+21,"Not enough is made of the fact that LeBron got Kevin Love to join him in Cleveland and commit long-term, but then LeBron himself didn't commit long-term and routinely undercut Love in one way or another. And through all that Love never complained once and appreciated everything.",18658,8yyx4f,https://www.reddit.com/r/nba/comments/8yyx4f/not_enough_is_made_of_the_fact_that_lebron_got/,1420,1531654541.0,"Kevin Love changed his game more than anyone to adapt to playing with LeBron. He also bore the brunt of LeBron's frustrations during his Cavs tenure with indirect jabs and rumors of trades involving Love.
+
+This is a summary of how Brian Windhorst described it on The Lowe Post:
+
+> Kyrie Irving ""opted out of what Love is dealing with,"" Windhorst said. ""Love deals with the persecution of being a LeBron teammate, of being blamed, of dealing with his social-media undercutting, of being the fall guy, as he's called himself.""
+
+> He added: ""There have been so many days and nights where Kevin Love has walked out of a building feeling beleaguered or beaten down either directly because of LeBron"" or indirectly.
+
+> But Windhorst says Love insists that it's all worth it because playing with James also means playing late into the season and competing for championships.
+
+> ""I have to give Kevin a real major hat tip for being a professional and being an adult about it,"" Windhorst said. ""He has always seen the big picture ... He has always maintained that this is all worth it, that playing in these late games — I mean, this is a guy who played for six years, whatever it was, never sniffed the playoffs. He's like: 'This is where I'm at right now. This is the charge for playing with [James].'"" 
+
+For fuck's sake, Kevin Love literally developed anxiety and stress to the point of having panic attacks and you have to think some of that was due to the pressure of playing with LeBron.
+
+Despite all that LeBron to the very end never seemed to appreciate what Love went through for him. When he signed with the Lakers, Love found out from a notification and HE called LeBron to tell him he loved him.
+
+Man, I just really admire Kevin Love and his strength and big heart in the face of what he puts up with.
+
+Edit: Clarifying ""you have to presume"" to ""you have to think"".",0.8,2018-07-15 04:35:41
+22,All-NBA teams based solely off of player headshots,18567,5krr0p,https://www.reddit.com/r/nba/comments/5krr0p/allnba_teams_based_solely_off_of_player_headshots/,730,1482978732.0,"It might be a little early in the season for shitposting but I made a bunch of superlatives based off of player headshots from ESPN.com. Some of the players are somewhat out of position, but I made sure they weren't more than one spot away from their listed position. Also, I had to dig pretty deep so some of the players are recently retired or are currently in the D-League.
+
+Let me know if there's any errors in spelling of names, links, etc.
+
+**The ""Trying to Smile but is Going Through a Pretty Hard Time"" Team**
+
+*Team 1:*
+
+PG: [Goran Dragic](http://i.imgur.com/XXWYGEa.png)
+
+SG: [Jrue Holiday](http://i.imgur.com/oNpc4Eb.png)
+
+SF: [Paul Pierce](http://i.imgur.com/2XHiO4z.png)
+
+PF: [Nerlens Noel](http://i.imgur.com/B5QSYBK.png)
+
+C: [Emeka Okafor](http://i.imgur.com/279z67b.png)
+
+*Team 2:*
+
+PG: [Raymond Felton](http://i.imgur.com/VKOpwth.png)
+
+SG: [Darren Collison](http://i.imgur.com/hOgTYN6.png)
+
+SF: [Tony Allen](http://i.imgur.com/0dONT3r.png)
+
+PF: [Luc Mbah a Moute](http://i.imgur.com/9SnaAVK.png)
+
+C: [Kendrick Perkins](http://i.imgur.com/ym0TGLh.png)
+
+**The ""Sees a Terrifying Ghost Behind the Camera"" Team**
+
+*Team 1:*
+
+PG: [Emmanuel Mudiay](http://i.imgur.com/eMdlj1D.png)
+
+SG: [Jamal Crawford](http://i.imgur.com/rD2NPtx.png) 
+
+SF: [Will Barton](http://i.imgur.com/jkio4Gq.png)
+
+PF: [Tyler Hansbrough](http://i.imgur.com/Lop5MV7.png)
+
+C: [Joakim Noah](http://i.imgur.com/PZQBT7n.png)
+
+*Team 2:* 
+
+PG: [Patrick Mccaw](http://i.imgur.com/Bo9rHYs.png)
+
+SG: [Marcus Thornton](http://i.imgur.com/xC9Czej.png)
+
+SF: [J.J. O’Brien](http://i.imgur.com/HxuqZEV.png)
+
+PF: [Dewayne Dedmon](http://i.imgur.com/9LcN4cY.png)
+
+C: [Javale McGee](http://i.imgur.com/UA59WR8.png)
+
+**The ""Forgot it was Picture Day and Got High an Hour Ago"" Team**
+
+*Team 1:*
+
+PG: [John Wall](http://i.imgur.com/meGhB3R.png)
+
+SG: [Zach lavine](http://i.imgur.com/ghM5aac.png)
+
+SF: [Dwyane Wade](http://i.imgur.com/aALjzUT.png)
+
+PF: [Mike Scott](http://i.imgur.com/ZTi8ONs.png)
+
+C: [Marreese Speights](http://i.imgur.com/aKjipET.png)
+
+*Team 2:*
+
+PG: [Reggie Jackson](http://i.imgur.com/jxtO0Te.png)
+
+SG: [Nick Young](http://i.imgur.com/BEy2xqu.png)
+
+SF: [Wayne Ellington](http://i.imgur.com/DtLqjB5.png)
+
+PF: [Brandon Ingram](http://i.imgur.com/M3lfYvG.png) (Thanks for the suggestion /u/Itorr475)
+
+C: [Pascal Siakam](http://i.imgur.com/RHfWg1K.png)
+
+**The ""Smelled Something Nasty Right When the Picture is About to be Taken"" Team**
+
+*Team 1:*
+
+PG: [Tony Parker](http://i.imgur.com/ezcNrzb.png)
+
+SG: [Eric Bledsoe](http://i.imgur.com/eLSkeKS.png) 
+
+SF: [Alec Burks](http://i.imgur.com/IQMf5FO.png)
+
+PF: [Demarcus Cousins](http://i.imgur.com/0VDlBG5.png)
+
+C: [Joel Embiid](http://i.imgur.com/NJe2xwq.png)
+
+*Team 2:*
+
+PG: [Patty Mills](http://i.imgur.com/s0VQIuM.png)
+
+SG: [Quincy Acy](http://i.imgur.com/2G5miA9.png)
+
+SF: [Thomas Robinson](http://i.imgur.com/C2HkEdB.png)
+
+PF: [Willie Reed](http://i.imgur.com/Ril9aQH.png)
+
+C: [Tiago Splitter](http://i.imgur.com/XTTR1i3.png)
+
+**The ""Blue Steel"" Team**
+
+PG: [Tyler Ulis](http://i.imgur.com/k5JvPqz.png)
+
+SG: [Quincy Miller](http://i.imgur.com/v4IHRqK.png)
+
+SF: [Paul George](http://i.imgur.com/LKokT34.png)
+
+PF: [Amar’e Stoudamire](http://i.imgur.com/zSJppoS.png)
+
+C: [Frank Kaminsky III](http://i.imgur.com/d9VIsn8.png)
+
+**The ""Probably Gives Really Nice and Genuine Hugs"" Team**
+
+PG: [Phil Pressey](http://i.imgur.com/8IPqptk.png)
+
+SG: [Yogi Ferrell](http://i.imgur.com/JeWcp0k.png)
+
+SF: [Jonathon Simmons](http://i.imgur.com/0aFh1gs.png)
+
+PF: [Richuan Holmes](http://i.imgur.com/Xe6628P.png)
+
+C: [Tristan Thompson](http://i.imgur.com/V22efvd.png)
+
+**The ""Goonies"" Team**
+
+PG: [Pablo Prigoni](http://i.imgur.com/wkLapfB.png)
+
+SG: [Denzel Valentine](http://i.imgur.com/Raf2MQy.png)
+
+SF: [Kyle Wiltjer](http://i.imgur.com/dPvX5w5.png)
+
+PF: [Cirstiano Felicio](http://i.imgur.com/WlkF61X.png)
+
+C: [Sim Bhullar](http://i.imgur.com/JCcTC9s.png)
+
+**The ""Nightmare Fuel"" Team**
+
+PG: [Ron Baker](http://i.imgur.com/0g3bEfg.png)
+
+SG: [Corey Brewer](http://i.imgur.com/BJczzPF.png)
+
+SF: [Kyle Singler](http://i.imgur.com/dgpuiWb.png)
+
+PF: [Michael Beasley](http://i.imgur.com/A6TS7La.png)
+
+C: [Furkan Adlemir](http://i.imgur.com/Uucl1pd.png)
+
+**The ""Understands What You’re Going Through and is Here For You if You Need Him"" Team**
+
+PG: [Isaiah Canaan](http://i.imgur.com/OGne3xg.png)
+
+SG: [Sergey Karasev](http://i.imgur.com/JVjhBrr.png)
+
+SF: [Joe Harris](http://i.imgur.com/JqE1I10.png)
+
+PF: [Bernard James](http://i.imgur.com/ls2CFLt.png)
+
+C: [Timofey Mozgov](http://i.imgur.com/ApAIC4w.png)
+
+**The ""Face is Melting"" Team**
+
+PG: [Patrick Beverley](http://i.imgur.com/9iR6MvE.png)
+
+SG: [Allen Crabbe](http://i.imgur.com/ruQhcj5.png)
+
+SF: [Demar DeRozan](http://i.imgur.com/pZfIOqu.png)
+
+PF: [Tony Mitchell](http://i.imgur.com/IOUkrAV.png)
+
+C: [Udonis Haslem](http://i.imgur.com/w1WldtL.png)
+
+Also, shoutout to [Clint Capela](http://i.imgur.com/GwRt0Ij.png) for worst cropped photo.
+
+EDIT: Uploaded pictures on imgur so you can view it easier with RES",0.88,2016-12-28 18:32:12
+23,Random OC: Which NBA Player's Full Name would produce the highest Scrabble Score?,18149,bvfen8,https://www.reddit.com/r/nba/comments/bvfen8/random_oc_which_nba_players_full_name_would/,803,1559380470.0,"**RULES**
+
+* Had to have gotten  salary for the 2018-19 season
+* Hyphens, spaces, apostrophes etc. are worth 0 points
+* Can have unlimited Scrabble Tiles
+
+&#x200B;
+
+**SCRABBLE LEGEND**
+
+[Scrabble Legend Here](https://www.thewordfinder.com/scrabble-point-values.php)
+
+&#x200B;
+
+**LIST**
+
+|Rank|Name|Scrabble Score|
+|:-|:-|:-|
+|1|Sviatoslav Mykhailiuk|42|
+|2|Chris Chiozza|40|
+|3|Michael Kidd-Gilchrist|39|
+|4|Kentavious Caldwell-Pope|39|
+|5|Quincy Pondexter|39|
+|6|Furkan Korkmaz|39|
+|7|Rondae Hollis-Jefferson|38|
+|8|Shabazz Napier|38|
+|9|Zaza Pachulia|37|
+|10|Juan Hernangomez|37|
+|11|Willy Hernangomez|37|
+|12|Timofey Mozgov|36|
+|13|Timothe Luwawu-Cabarrot|36|
+|14|Michael Carter-Williams|35|
+|15|Kristaps Porzingis|35|
+|16|Alfonzo McKinnie|35|
+|17|Matthew Dellavedova|34|
+|18|Nemanja Bjelica|34|
+|19|Josh Jackson|34|
+|20|Shai Gilgeous-Alexander|34|
+|21|Bismack Biyombo|33|
+|22|Bojan Bogdanovic|33|
+|23|Boban Marjanovic|33|
+|24|Mario Hezonja|33|
+|25|Dirk Nowitzki|33|
+|26|Frank Kaminsky|33|
+|27|Justin Jackson|33|
+|28|John Jenkins|32|
+|29|Shaquille Harrison|32|
+|30|Zach Randolph|32|
+|31|Jaren Jackson|32|
+|32|Jonas Jerebko|32|
+|33|Frank Jackson|32|
+|34|Miroslav Raduljica|32|
+|35|Demetrius Jackson|32|
+|36|Jamal Crawford|31|
+|37|James Johnson|31|
+|38|Markelle Fultz|31|
+|39|JaMychal Green|31|
+|40|Patrick Beverley|31|
+|41|Donte DiVincenzo|31|
+|42|Chandler Hutchison|31|
+|43|Kyle Kuzma|31|
+|44|Alize Johnson|31|
+|45|Ryan Broekhoff|31|
+|46|Josh Richardson|30|
+|47|Mirza Teletovic|30|
+|48|Marquese Chriss|30|
+|49|Malachi Richardson|30|
+|50|Melvin Frazier|30|
+|51|Jarred Vanderbilt|30|
+|52|Chimezie Metu|30|
+|53|Jamaal Franklin|30|
+|54|Patrick McCaw|29|
+|55|Giannis Antetokounmpo|29|
+|56|Kent Bazemore|29|
+|57|J.J. Redick|29|
+|58|Bogdan Bogdanovic|29|
+|59|Jerryd Bayless|29|
+|60|Karl-Anthony Towns|29|
+|61|Wesley Johnson|29|
+|62|Montrezl Harrell|29|
+|63|Jonathon Simmons|29|
+|64|Ante Zizic|29|
+|65|Jahlil Okafor|29|
+|66|Dorian Finney-Smith|29|
+|67|Kenrich Williams|29|
+|68|Jimmer Fredette|29|
+|69|Tahjere McCall|29|
+|70|Wesley Matthews|28|
+|71|Markieff Morris|28|
+|72|Wesley Matthews|28|
+|73|Markieff Morris|28|
+|74|B.J. Johnson|28|
+|75|Nikola Jokic|28|
+|76|Reggie Jackson|28|
+|77|Jonas Valanciunas|28|
+|78|Jordan Clarkson|28|
+|79|Kelly Olynyk|28|
+|80|Alexis Ajinca|28|
+|81|Guerschon Yabusele|28|
+|82|Zhaire Smith|28|
+|83|Denzel Valentine|28|
+|84|Ivica Zubac|28|
+|85|Dakari Johnson|28|
+|86|Quincy Acy|28|
+|87|JaKarr Sampson|28|
+|88|Dwight Howard|27|
+|89|CJ McCollum|27|
+|90|Jimmy Butler|27|
+|91|Jabari Parker|27|
+|92|Zach LaVine|27|
+|93|Nikola Vucevic|27|
+|94|Jusuf Nurkic|27|
+|95|Cory Joseph|27|
+|96|Al-Farouq Aminu|27|
+|97|Justin Holiday|27|
+|98|Stanley Johnson|27|
+|99|Kevin Knox|27|
+|100|Zach Collins|27|
+|101|Justise Winslow|27|
+|102|Brook Lopez|27|
+|103|Moritz Wagner|27|
+|104|Dejounte Murray|27|
+|105|Jason Thompson|27|
+|106|Zhou Qi|27|
+|107|Donatas Motiejunas|27|
+|108|Joakim Noah|26|
+|109|Klay Thompson|26|
+|110|Derrick Favors|26|
+|111|Kemba Walker|26|
+|112|Maurice Harkless|26|
+|113|Jeremy Lamb|26|
+|114|Patrick Patterson|26|
+|115|Jaylen Brown|26|
+|116|Mohamed Bamba|26|
+|117|Kyle O'Quinn|26|
+|118|Michael Beasley|26|
+|119|Donovan Mitchell|26|
+|120|Jakob Poeltl|26|
+|121|Taurean Waller-Prince|26|
+|122|JaVale McGee|26|
+|123|Georgios Papagiannis|26|
+|124|Anderson Varejao|26|
+|125|Spencer Dinwiddie|26|
+|126|Jake Layman|26|
+|127|Derrick Jones|26|
+|128|Justin Hamilton|26|
+|129|Khyri Thomas|26|
+|130|Lorenzo Brown|26|
+|131|Stephan Hicks|26|
+|132|Isaac Humphries|26|
+|133|Shelvin Mack|25|
+|134|Russell Westbrook|25|
+|135|Blake Griffin|25|
+|136|Gordon Hayward|25|
+|137|DeMar DeRozan|25|
+|138|Jrue Holiday|25|
+|139|Hassan Whiteside|25|
+|140|Tyler Johnson|25|
+|141|Cody Zeller|25|
+|142|Khris Middleton|25|
+|143|Dwight Powell|25|
+|144|Thabo Sefolosha|25|
+|145|Jonathan Isaac|25|
+|146|Willie Cauley-Stein|25|
+|147|Frank Ntilikina|25|
+|148|Jamal Murray|25|
+|149|Jerome Robinson|25|
+|150|Josh Okogie|25|
+|151|Derrick White|25|
+|152|Mitchell Robinson|25|
+|153|Khem Birch|25|
+|154|Sindarius Thornwell|25|
+|155|Maxi Kleber|25|
+|156|Brad Wanamaker|25|
+|157|James Nunnally|25|
+|158|Ding Yanyuhang|25|
+|159|Jodie Meeks|24|
+|160|Carmelo Anthony|24|
+|161|Kenneth Faried|24|
+|162|Carmelo Anthony|24|
+|163|Tim Frazier|24|
+|164|Kenneth Faried|24|
+|165|Tim Frazier|24|
+|166|James Harden|24|
+|167|Jeff Teague|24|
+|168|Brandon Knight|24|
+|169|Marvin Williams|24|
+|170|Avery Bradley|24|
+|171|Jared Dudley|24|
+|172|Kyle Korver|24|
+|173|Dewayne Dedmon|24|
+|174|Langston Galloway|24|
+|175|Anthony Tolliver|24|
+|176|Josh Smith|24|
+|177|Lauri Markkanen|24|
+|178|Luc Mbah a Moute|24|
+|179|Emmanuel Mudiay|24|
+|180|Al Jefferson|24|
+|181|Tomas Satoransky|24|
+|182|Andrew Nicholson|24|
+|183|Dante Cunningham|24|
+|184|Channing Frye|24|
+|185|Jonah Bolden|24|
+|186|MarShon Brooks|24|
+|187|Jacob Evans|24|
+|188|DeAndre' Bembry|24|
+|189|T.J. McConnell|24|
+|190|Cheick Diallo|24|
+|191|Malcolm Brogdon|24|
+|192|Rodney McGruder|24|
+|193|Quinn Cook|24|
+|194|Rade Zagorac|24|
+|195|Antonio Blakeney|24|
+|196|De'Anthony Melton|24|
+|197|Chris Boucher|24|
+|198|Jaylen Adams|24|
+|199|Justin Bibbs|24|
+|200|Cameron Reynolds|23|
+|201|Mitch Creek|23|
+|202|Chandler Parsons|23|
+|203|Kawhi Leonard|23|
+|204|DeAndre Jordan|23|
+|205|LaMarcus Aldridge|23|
+|206|Tim Hardaway|23|
+|207|Trevor Ariza|23|
+|208|Robin Lopez|23|
+|209|Wilson Chandler|23|
+|210|John Henson|23|
+|211|Robert Covington|23|
+|212|Cristiano Felicio|23|
+|213|P.J. Tucker|23|
+|214|Jae Crowder|23|
+|215|Marvin Bagley|23|
+|216|Jayson Tatum|23|
+|217|J.J. Barea|23|
+|218|Terry Rozier|23|
+|219|Reggie Bullock|23|
+|220|Jeff Green|23|
+|221|Amir Johnson|23|
+|222|John Collins|23|
+|223|Malik Beasley|23|
+|224|Richaun Holmes|23|
+|225|Jawun Evans|23|
+|226|Semi Ojeleye|23|
+|227|Ryan Arcidiacono|23|
+|228|Devonte' Graham|23|
+|229|Keita Bates-Diop|23|
+|230|Jevon Carter|23|
+|231|Isaiah Hartenstein|23|
+|232|A.J. Hammons|23|
+|233|Festus Ezeli|23|
+|234|Tyler Zeller|23|
+|235|Charles Cooke|23|
+|236|Tyson Chandler|22|
+|237|Stephen Curry|22|
+|238|LeBron James|22|
+|239|Kyle Lowry|22|
+|240|Andrew Wiggins|22|
+|241|Joel Embiid|22|
+|242|Anthony Davis|22|
+|243|Kyrie Irving|22|
+|244|Tristan Thompson|22|
+|245|Thaddeus Young|22|
+|246|Kosta Koufos|22|
+|247|Fred VanVleet|22|
+|248|Shaun Livingston|22|
+|249|Doug McDermott|22|
+|250|Jason Smith|22|
+|251|DeMarcus Cousins|22|
+|252|Lance Stephenson|22|
+|253|Mikal Bridges|22|
+|254|Michael Porter|22|
+|255|Justin Anderson|22|
+|256|Bobby Portis|22|
+|257|Raymond Felton|22|
+|258|Jose Calderon|22|
+|259|Kevin Huerter|22|
+|260|Terrance Ferguson|22|
+|261|Spencer Hawes|22|
+|262|Pat Connaughton|22|
+|263|Dzanan Musa|22|
+|264|Salah Mejri|22|
+|265|Pascal Siakam|22|
+|266|Chinanu Onuaku|22|
+|267|Christian Wood|22|
+|268|Treveon Graham|22|
+|269|Thomas Bryant|22|
+|270|Wesley Iwundu|22|
+|271|Dwayne Bacon|22|
+|272|Jabari Bird|22|
+|273|Terrence Jones|22|
+|274|Scotty Hopson|22|
+|275|Richard Solomon|22|
+|276|Dusty Hannahs|22|
+|277|Scott Machado|22|
+|278|Jordan Sibert|22|
+|279|Corey Brewer|21|
+|280|Jeremy Lin|21|
+|281|Wayne Ellington|21|
+|282|Cameron Payne|21|
+|283|Wayne Ellington|21|
+|284|Jeremy Lin|21|
+|285|Cameron Payne|21|
+|286|Mike Conley|21|
+|287|Victor Oladipo|21|
+|288|John Wall|21|
+|289|Draymond Green|21|
+|290|Dennis Schroder|21|
+|291|Ricky Rubio|21|
+|292|Nikola Mirotic|21|
+|293|Tyreke Evans|21|
+|294|Iman Shumpert|21|
+|295|Jerami Grant|21|
+|296|De'Aaron Fox|21|
+|297|Mike Muscala|21|
+|298|Collin Sexton|21|
+|299|Buddy Hield|21|
+|300|Malik Monk|21|
+|301|Allonzo Trier|21|
+|302|Devin Booker|21|
+|303|Elfrid Payton|21|
+|304|Justin Patton|21|
+|305|Jarell Martin|21|
+|306|Dwyane Wade|21|
+|307|Caleb Swanigan|21|
+|308|Landry Shamet|21|
+|309|Josh Hart|21|
+|310|Robert Williams|21|
+|311|Kevon Looney|21|
+|312|Damian Jones|21|
+|313|Wade Baldwin|21|
+|314|Tyrone Wallace|21|
+|315|Jalen Brunson|21|
+|316|Martell Webster|21|
+|317|Malcolm Miller|21|
+|318|Andrew Harrison|21|
+|319|Kobi Simmons|21|
+|320|Deyonta Davis|20|
+|321|Bruno Caboclo|20|
+|322|Deyonta Davis|20|
+|323|Troy Williams|20|
+|324|Andre Drummond|20|
+|325|Kyle Anderson|20|
+|326|Julius Randle|20|
+|327|Lonzo Ball|20|
+|328|Marco Belinelli|20|
+|329|Alex Abrines|20|
+|330|Luke Kennard|20|
+|331|Bryn Forbes|20|
+|332|Bam Adebayo|20|
+|333|Sam Dekker|20|
+|334|Domantas Sabonis|20|
+|335|Isaiah Thomas|20|
+|336|Tony Bradley|20|
+|337|Rodions Kurucs|20|
+|338|Skal Labissiere|20|
+|339|David Nwaba|20|
+|340|Jordan Bell|20|
+|341|Damyean Dotson|20|
+|342|Kevin Martin|20|
+|343|Daniel Hamilton|20|
+|344|Hamidou Diallo|20|
+|345|Isaiah Briscoe|20|
+|346|C.J. Watson|20|
+|347|Okaro White|20|
+|348|Cody Demps|20|
+|349|Henry Ellenson|19|
+|350|Nik Stauskas|19|
+|351|Kevin Durant|19|
+|352|Chris Bosh|19|
+|353|Bradley Beal|19|
+|354|Kevin Love|19|
+|355|Harrison Barnes|19|
+|356|DeMarre Carroll|19|
+|357|J.R. Smith|19|
+|358|Taj Gibson|19|
+|359|Meyers Leonard|19|
+|360|Dante Exum|19|
+|361|Norman Powell|19|
+|362|Joe Harris|19|
+|363|D.J. Augustin|19|
+|364|Ersan Ilyasova|19|
+|365|Luka Doncic|19|
+|366|Brandon Ingram|19|
+|367|Deron Williams|19|
+|368|Ben McLemore|19|
+|369|Tony Parker|19|
+|370|Wendell Carter|19|
+|371|Kelly Oubre|19|
+|372|Jerian Grant|19|
+|373|Delon Wright|19|
+|374|D.J. Wilson|19|
+|375|Tyus Jones|19|
+|376|Lonnie Walker|19|
+|377|Jarrett Allen|19|
+|378|Aaron Holiday|19|
+|379|Anfernee Simons|19|
+|380|James Ennis|19|
+|381|Noah Vonleh|19|
+|382|Omari Spellman|19|
+|383|Frank Mason|19|
+|384|Sterling Brown|19|
+|385|Dillon Brooks|19|
+|386|Ike Anigbogu|19|
+|387|Kyle Singler|19|
+|388|Chasson Randle|19|
+|389|Bruce Brown|19|
+|390|Cole Aldrich|19|
+|391|Carlos Delfino|19|
+|392|Nick Young|19|
+|393|Gary Payton|19|
+|394|Ray Spalding|18|
+|395|Nicolas Batum|18|
+|396|Evan Fournier|18|
+|397|Mason Plumlee|18|
+|398|Miles Plumlee|18|
+|399|T.J. Warren|18|
+|400|Rajon Rondo|18|
+|401|C.J. Miles|18|
+|402|Garrett Temple|18|
+|403|Lance Thomas|18|
+|404|Davis Bertans|18|
+|405|Milos Teodosic|18|
+|406|Marcus Morris|18|
+|407|Rodney Hood|18|
+|408|Ekpe Udoh|18|
+|409|Miles Bridges|18|
+|410|Yogi Ferrell|18|
+|411|Thon Maker|18|
+|412|Udonis Haslem|18|
+|413|Andrew Bogut|18|
+|414|Devin Harris|18|
+|415|Vince Carter|18|
+|416|Derrick Rose|18|
+|417|Trey Burke|18|
+|418|Luke Kornet|18|
+|419|Wayne Selden|18|
+|420|Tyler Dorsey|18|
+|421|Isaiah Taylor|18|
+|422|Edmond Sumner|18|
+|423|Isaiah Canaan|17|
+|424|Emanuel Terry|17|
+|425|Eric Moreland|17|
+|426|Paul Millsap|17|
+|427|Damian Lillard|17|
+|428|Steven Adams|17|
+|429|Rudy Gobert|17|
+|430|Serge Ibaka|17|
+|431|Danilo Gallinari|17|
+|432|Allen Crabbe|17|
+|433|Gary Harris|17|
+|434|Ian Mahinmi|17|
+|435|Clint Capela|17|
+|436|Tobias Harris|17|
+|437|Marcin Gortat|17|
+|438|Joe Ingles|17|
+|439|Marcus Smart|17|
+|440|Patty Mills|17|
+|441|Alec Burks|17|
+|442|Darren Collison|17|
+|443|Deandre Ayton|17|
+|444|Darrell Arthur|17|
+|445|Dragan Bender|17|
+|446|Mike Scott|17|
+|447|Dennis Smith|17|
+|448|Seth Curry|17|
+|449|Troy Brown|17|
+|450|Manu Ginobili|17|
+|451|Harry Giles|17|
+|452|Torrey Craig|17|
+|453|Tyler Lydon|17|
+|454|Chris Paul|16|
+|455|Al Horford|16|
+|456|Ryan Anderson|16|
+|457|Goran Dragic|16|
+|458|Andre Iguodala|16|
+|459|Eric Bledsoe|16|
+|460|Courtney Lee|16|
+|461|Solomon Hill|16|
+|462|Andre Roberson|16|
+|463|E'Twaun Moore|16|
+|464|Lou Williams|16|
+|465|D'Angelo Russell|16|
+|466|Ben Simmons|16|
+|467|Ish Smith|16|
+|468|Glenn Robinson|16|
+|469|Myles Turner|16|
+|470|T.J. Leaf|16|
+|471|Omri Casspi|16|
+|472|Grayson Allen|16|
+|473|Larry Sanders|16|
+|474|Caris LeVert|16|
+|475|Royce O'Neale|16|
+|476|Dairis Bertans|16|
+|477|Austin Rivers|15|
+|478|George Hill|15|
+|479|Gorgui Dieng|15|
+|480|Will Barton|15|
+|481|Dion Waiters|15|
+|482|Rudy Gay|15|
+|483|Jon Leuer|15|
+|484|Danny Green|15|
+|485|Aron Baynes|15|
+|486|Trey Lyles|15|
+|487|Troy Daniels|15|
+|488|Larry Nance|15|
+|489|Darius Miller|15|
+|490|OG Anunoby|15|
+|491|Georges Niang|15|
+|492|Ivan Rabb|15|
+|493|Daniel Theis|15|
+|494|Monte Morris|15|
+|495|Elie Okobo|15|
+|496|Isaac Bonga|15|
+|497|Caron Butler|15|
+|498|Andre Ingram|15|
+|499|Terry Larrier|15|
+|500|Enes Kanter|14|
+|501|Ron Baker|14|
+|502|Greg Monroe|14|
+|503|Enes Kanter|14|
+|504|Ron Baker|14|
+|505|Greg Monroe|14|
+|506|Paul George|14|
+|507|Marc Gasol|14|
+|508|Eric Gordon|14|
+|509|Omer Asik|14|
+|510|Terrence Ross|14|
+|511|Alex Len|14|
+|512|Nene Hilario|14|
+|513|Cedi Osman|14|
+|514|Gerald Green|14|
+|515|Matt Barnes|14|
+|516|Tim Duncan|14|
+|517|Ian Clark|14|
+|518|Davon Reed|14|
+|519|Abdel Nader|14|
+|520|Aaron Gordon|13|
+|521|Evan Turner|13|
+|522|Trae Young|13|
+|523|Kris Dunn|13|
+|524|Dario Saric|13|
+|525|Gary Trent|13|
+|526|Garlon Green|13|
+|527|Otto Porter|12|
+|528|Tony Snell|12|
+|529|Ed Davis|12|
+|530|Monta Ellis|12|
+|531|Ben Moore|12|
+|532|Pau Gasol|11|
+|533|Nerlens Noel|11|
+|534|Luol Deng|10|
+|535|Raul Neto|8|",0.93,2019-06-01 02:14:30
+24,Kevin Durant did not ruin the NBA. We did.,17705,8pvdtz,https://www.reddit.com/r/nba/comments/8pvdtz/kevin_durant_did_not_ruin_the_nba_we_did/,3116,1528602679.0,"High-voted comments on video of Grant Hill, Chris Webber and Charles Barkley giving postgame analysis:
+
+""Great commentary from 3 legends that have 0 titles between them.﻿""
+
+""Only things missing were Karl Malone and John Stockton.""
+
+""Javale McGee got more rings than Barkley and will win more.""
+
+""chuck talks about rings ... WHERE is shaq when you need him to shut him up﻿""
+
+""Criticism is expected from people who never won a chip﻿""
+
+High-voted comment on similar video: ""What's the difference between Carmelo Anthony and a tree? The tree has rings.""
+
+Shaq to Barkley on Inside the NBA: ""First of all, I know what it's like to win a championship. You don't.""
+
+From the movie Bad Teacher:
+
+""Call me when LeBron has six championships.""
+
+""Wha--THAT'S your only argument?!""
+
+""IT'S THE ONLY ARGUMENT I NEED, SHAWN!""
+
+Kobe Bryant responds to legitimate criticism about his play style: [""Count to 5.""](https://twitter.com/kobebryant/status/607249857057685504)
+
+But Kevin Durant is the villain for joining a 73-win team?
+
+No.
+
+We, the fans, made this happen.
+
+We kept saying the ONLY measure of greatness was number of rings won.
+
+And now look at this league. The best players joining ONE team to get the easiest road to a ring.
+
+Look at the state of this sport we love so much. This is what we've turned the world's highest level of basketball competition into.
+
+We made this bed. Now we're sleeping in it. We have no one to blame but our own damn selves.
+
+Congratulations, Golden State Warriors. I don't hate you. I hate my fellow fans for making you happen.",0.75,2018-06-09 20:51:19
+25,Is having Lebron really worth the trouble?,17464,6olkrv,https://www.reddit.com/r/nba/comments/6olkrv/is_having_lebron_really_worth_the_trouble/,1009,1500638686.0,"People were interested in seeing how I came up with the value Lebron brings to the Cavs, Dan Gilbert, and Downtown Cleveland as a whole. I've decided to make this thread so those that were interested could see how I arrived at the valuation.
+
+A few days ago an interesting thread arose accusing Lebron of handicapping the Cavs this offseason. Because of his contract demands for his friends, the Cavs could not make many offseason moves. Further, they're having to pay tens of millions in luxury tax just to make this man happy. This prompted u/jushin33 to ask:
+> Has anyone looked at how much value Cavs would lose if Lebron left vs the tax savings? 
+
+Why is Dan Gilbert so willing to pay out the nose in luxury taxes rather than let Lebron walk and pocket the savings? Surely he's not worth it at this point, right? 
+
+Let’s begin by looking at attendance before we get into the financial aspect. How many more faces travel to Quicken Loans Arena to see the King?
+
+> Attendance prior to return: 17,329
+> Return: 20,562
+> 2017: 20,562
+
+Given 41 home games, this is 132,553 more people coming in yearly compared to the most recent season without him.
+
+With playoffs that is at LEAST another 164,496 people whose offseason has not come early provided there is a minimum 8 playoff home games. To get this number I accounted for the fact that QLA would have a patronage of 0 because the team has not made the playoffs without Lebron in the last 20 years, so each home game is an increase by 20,562. 
+
+Interesting to note, Quicken Loans Arena max capacity is, you’ve guessed it, 20,562 people. The arena has been sold out every game since Lebron’s return. 
+ 
+Now let's look at revenue:
+> Year before: $145M
+> Return: $149M
+> 2017: $233M
+
+I’m going to say 2015 was an outlier year. Lebron announced his return in July, 3 months before the NBA season began. The organization may have needed time to adjust to the sudden good fortune. In 2016, after having Lebron for a full regular and offseason, the team took advantage of his prowess, posting a revenue of $191M.
+
+A lot of people asked about playoff revenue. The Cavaliers make an average of $81 per fan at full capacity during the regular season. Assuming a sweep each round, we get 8 hosted home games per post season. **This gives us $13,324,176 a year in revenue brought in** **SOLELY FROM HAVING LEBRON ON THE TEAM**. He’s been a lock to make the finals every year and, for a team that suffered four straight years of zero playoff games, this is literally money they would not see without him.
+
+The Cavaliers had an operating loss of 40m in the 2017 season. I should note that this is the only loss the team has seen since drafting Lebron. This is wholly attributed to the dramatic increase in player expenses this year. In 2016 the team spent 87M on players. In 2017, this number rose to a whopping $131M. Before that, the Cavaliers went from an average operating income of $10m a year without Lebron, to $22.5M a year between 2015-2016. This is interesting to note because, given these figures, the team’s actual operating hit from adding Lebron drops to around $16M. 
+
+Mr. Gilbert has suffered a net loss from re-signing Lebron of $16M…so far. Let’s see if he makes it back into the black. 
+
+
+The Cavalier’s player expense hit is a sight to behold. Luxury tax ain’t no joke. However, after this season, the Cavaliers have a lot of salaries coming off the books and will only have $80-90M in owed player expenses. Were Dan Gilbert to resign Lebron, find cheaper talent, and maintain a revenue stream of, let’s say $200M to be conservative, he would make out like a bandit. Lebron would demand a salary higher than Curry’s and Harden’s, yes, but the team also has multiple deals coming in that would offset this. Goodyear, I believe, just signed on a $10m/year logo placement and the local tv deal of ten years at $26m a year ended this past season and is expected to at least double when the new deal is signed. All of that is in the future, however. Let’s look at what Lebron has already brought him.
+> **Edit: Some people are taking issue with his impact on the valuation of the team as a whole. Whether it be the Clippers sale or revenue sharing. It was just a quick thing I noticed while putting this together and thought it would be interesting to add. Has no effect on the amount of revenue Lebron generates yearly. Dude brings in bank. I'll still leave it below, though.** 
+> 
+> Cavs value year before return: 515M
+> Year of: 915M
+> 2017: $1.2B
+> 
+> Wow. Dan Gilbert’s networth is $5.1B. The team he purchased at $375M has ballooned to become an asset worth $1.2B. ~~Lebron is literally responsible for $825M of his net worth from basketball operations alone.~~
+
+Basketball operations alone? Donajello, are you saying that Lebron has generated even MORE wealth for Dan Gilbert? Short answer: yes. Long answer: …you should probably sit down for this.
+
+With foot traffic in downtown Cleveland skyrocketing with everyone coming to watch Lebron play, it is only natural that local businesses would reap the rewards. Dan Gilbert is the largest solo investor into the downtown Cleveland economy. He has invested more than $1B into the area and is the owner of 12 local businesses. This includes clubs, bars, and restaurants – all things people look for after a high-octane game. Bar owners in the area, ranging from small to large, have seen an increase in revenue of 30-200% on game nights. Demand for local hotel rooms have risen 8.6% since Lebron’s return. Lebron’s presence “increased the number of restaurants within 1 mile of a stadium by about 12.8% and the number of eating and drinking establishments by about 13.7%” to meet demand per a Harvard study. Employment in the hospitality industry in increased 9.9% upon the King’s return.
+
+How much is all this worth? A study funded by the city of Cleveland along with the Cavaliers that was conducted by The Plain Dealer estimated in 2010 that Lebron James was key to bringing $135 per additional person downtown to see a home game. This includes parking, dinners, occasional hotels, and other expenses. That’s about $600k a night and $18,265,500 a year. The study also estimated that the downtown area sees an increase in foot traffic of 105,000 during playoffs. That gives us $113,400,000 over 8 home games. Note: the original estimate in the study of $180 included ticket prices. I’ve removed the $45 average ticket price because we are solely looking at revenue outside of the stadium. Their number did NOT include concession spending. 
+
+**TL;DR: Dan Gilbert suffered a $40m loss, $27m of that coming from luxury taxes last season. Lebron increased team revenue by $88M from the highest grossing year without him to today. Outside of the stadium Lebron is responsible for $18,265,500 in spending during the season in downtown Cleveland, and $113,400,000 during playoffs. Dan Gilbert owns the Cavaliers and is the largest investor into downtown Cleveland to the tune of over $1B and 12 businesses.**
+
+**Lebron has brought in about $219,665,500 a year just by coming back home.**
+
+**Why would Dan Gilbert and the organization hop, jump, and skip to please Lebron, even to the point of paying exorbitant luxury taxes to sign his friends? Well, the proof is in the numbers. No king has been this profitable since Midas.**  
+
+Edit 2: Lebron has even brought me gold. Is there anything this man cannot do? Seriously, thank you kind stranger.
+
+Going to quickly clarify a few common questions. (Like 100 folks asked the same things)
+
+1. The City of Cleveland reported an increase in traffic to the downtown area of 105,000 PER DAY A HOME PLAYOFF GAME WAS PLAYED. $135 * (105,000*8) for the lowest estimate.
+
+2. $135 doesnt mean every person literally spent $135 per night. The city took their increased revenue and divided by the increased traffic on game nights.
+
+3. No Dan Gilbert doesn't make every penny of the 131M/year Lebron brings to the downtown area... However, businesses saw an average yearly increase in revenue ranging from 30% to 200% depending on their size, much of this coming during the period of playoffs. Gilbert owns billions worth of businesses in the area, revenue of those businesses increased as a direct result of the increased spending.
+
+4. The Clippers sold for $2B. Thanks, I get it. Lebron isn't responsible for ALL of the 1.2B valuation, but he does add to it. However, that has ZERO impact on the revenue he brings in from people who come to see him play, which is my main concern. No one travels to Cleveland because they heard the Clippers were sold. C'mon now.",0.88,2017-07-21 05:04:46
+26,"I made Basketball GM, a basketball management video game that will help you get through the offseason. And it's free, with no microtransactions or other gimmicks",17172,cgs1y7,https://www.reddit.com/r/nba/comments/cgs1y7/i_made_basketball_gm_a_basketball_management/,845,1563914148.0,"I'm back again for my annual ""tell people about [Basketball GM](https://basketball-gm.com/) during the dead of the NBA offseason"" post! First of all, if you've never played Basketball GM, [give it a try](https://basketball-gm.com/), I think you might like it. It's a video game where you get to be the general manager of a pro basketball team, kind of like Football Manager or franchise mode in 2k. You sign players, draft players, make trades, manage the finances, and try not to get fired.
+
+Most importantly: it's free. Actually free. That means no microtransactions or ""free to play"" or any kind of horrible corrupting nonsense like that.
+
+If you've played Basketball GM before... listen, I'm not gonna lie to you. At its core, it's the same game it was a year ago. If you didn't like it then, you probably won't like it now. But if you did like it before, it's even better now! There have been a ton of small improvements, such as:
+
+* More customization options in God Mode. [Add/remove teams](https://np.reddit.com/r/BasketballGM/comments/cafqfp/in_god_mode_the_edit_team_info_page_has_been/), [don't allow your players to refuse to re-sign](https://np.reddit.com/r/BasketballGM/comments/bxcca8/new_in_v201906060088_a_god_mode_option_to_disable/), [edit relatives of players](https://np.reddit.com/r/BasketballGM/comments/btqh8w/more_minor_new_stuff_edit_relatives_when/), [use the new or old lottery odds](https://basketball-gm.com/blog/2019/05/draft-lottery-updates/), [set hard/soft cap and playoff byes](https://basketball-gm.com/blog/2018/11/new-options-hard-soft-cap-and-playoff-byes/), [edit playoff series lengths](https://np.reddit.com/r/BasketballGM/comments/9i47ul/playoff_series_length_is_now_customizable/), and [load draft classes way into the future](https://basketball-gm.com/blog/2019/07/far-future-draft-classes/).
+
+* More depth, such as ways to view [family trees, tragic deaths, roster continuity, and the best players who never made the playoffs](https://basketball-gm.com/blog/2019/05/frivolities/), [more realistic contracts and draft history in new leagues](https://basketball-gm.com/blog/2018/11/more-realistic-new-leagues/), and [more](https://basketball-gm.com/blog/2018/09/a-few-recent-minor-improvements/).
+
+* A ton of UI improvements, like [""untouchable"" players and picks in trades](https://np.reddit.com/r/BasketballGM/comments/9o9v7g/untouchable_players_and_picks_in_trades/), [dark mode](https://gfycat.com/distortedspottedcopepod), [play/pause/next buttons in live games](https://gfycat.com/idealcleveriberianmidwifetoad), [a sexy new playoffs UI](https://imgur.com/JCOkIai), [a ""Play > Until end of round"" menu item in the playoffs](https://np.reddit.com/r/BasketballGM/comments/9e17bb/minor_new_feature_play_until_end_of_round_in_the/), and [a ""Download Spreadsheet"" button on nearly every table](https://np.reddit.com/r/BasketballGM/comments/9s8r8p/download_spreadsheet_button_on_nearly_every_table/).
+
+* Continued awesome work from the community on making [realistic rosters](https://np.reddit.com/r/BasketballGM/comments/cc62sj/20192020_nba_roster_v_04_westbrook_to_rockets/) for [the current NBA and past seasons](https://nicidob.github.io/rosters/), running [multiplayer leagues](https://np.reddit.com/r/BasketballGM/wiki/basketball_gm_multiplayer_league_list), and [much more](https://np.reddit.com/r/BasketballGM/comments/2b9him/best_of_rbasketballgm/).
+
+* Either the biggest or smallest news, depending on your perspective... [a brand new football version of the game](https://play.football-gm.com/).
+
+Also since posting to /r/nba is where I got my initial userbase from, and Basketball GM has had such a huge positive impact on my life, I am very grateful for this community. Thank you. You are more than just copypasta! Although I do enjoy the pasta too.
+
+[Here's the link again, in case you missed it.](https://play.basketball-gm.com/)",0.95,2019-07-23 13:35:48
+27,"The Orlando Magic currently lead the East and have manhandled Finals contenders like the Spurs and Cavs. Some of you may be unfamiliar with our team, so here's an introduction.",16321,79d1fz,https://www.reddit.com/r/nba/comments/79d1fz/the_orlando_magic_currently_lead_the_east_and/,853,1509258587.0,"*(Look, I know we're only five games into the season and this shit will probably not last but let me soak this shit up while I can, okay? I get to brag about my team once a decade, fuck off.)*
+
+The Orlando Magic have come off the blocks hotter than a raccoon in a tin garbage can in the middle of June.  Whether it lasts will remain to be seen but as of right now they're knocking off heavyweights like the Cavs and Spurs like they're D-League teams and **bitch I am shook**.  We've been hot garbage ever since that tall ass pedophile dude left so ion even know what to do with myself right now.  Tried touching myself but I'm not gonna be able to get a nut off till we get that ring.  Blue ballin for the boys in blue.    
+
+**THE TEAM**
+
+We've got a scrappy squad of a bunch of young dick touchers coached by main man Frank the tank Vogel.  He's a cute guy for real.
+
+**A-God** - This a real ass man right here.  He's young but he's got a big boy game now. Big dick shit only. Averaging 23 and 9 right now.  Please don't take him LA.  I swear to god.
+
+**Vucci Mane** - This white boy right here is the truth.  We gotta make sure we get him in the racial draft next year before the race war.  Protect the Vooch
+
+**The french dude** - I was low key mad when we traded away Dipo to give Fournier more minutes but imma take the L on that one cause my boy came through.  Also, Evan Fournier will fuck your girl.  And make you watch.  
+
+*(Full disclosure:  I ate an edible like an hour and a half ago and that shit just hit me like a ton of bricks and I no longer have the energy to do the rest of the team.  You know the rest of them fools, just go with it)*
+
+
+**THE CITY**
+
+Orlando is mostly known as a vacation destination for people who think Olive Garden is fancy and Brazilian pickpockets.  Our two biggest celebrities of the past 10 years have been Casey Anthony and George Zimmerman.  [We are trash](https://www.youtube.com/watch?v=V6BKGpPIi58) and honestly North Korea should just nuke us.  We'd thank them.  
+
+You ever wanted to go to a 2 story Sizzler?  You ever wanted to see a guy smoke crack in the middle of a highway?  Well this is your kinda place then.  We're close to Miami so we got pretty good drugs, but beyond that we're trash as hell.
+
+Which is why the Magic not being trash is so vital to our life.  When you live in the **tackiest city in the country** you gotta do waht you gotta do.  Orlando is what most philosophers call a ""Garbage city"".  As in, its garbage, the people are garbage, there's garbage everywhere, crackheads will piss on your car, everyone is like 57% suicidal, just don't ever come here.
+
+Steph is quaking.  KD is shook.  The league is on alert.  We byke bitch
+
+(I started off and was gonna make a legitimate analysis post but kinda lost the plot halfway I apologize)",0.88,2017-10-28 23:29:47
+28,"I found Maurice Harkless’s wallet, and this is what happened.",16074,e63d4n,https://www.reddit.com/r/nba/comments/e63d4n/i_found_maurice_harklesss_wallet_and_this_is_what/,2827,1575512545.0,"Picture evidence: https://imgur.com/gallery/I1gvBHx
+
+I know this is more of a prime off-season post, however I believe I should post this here:
+
+In the summer of 2018, I was a manager at my local movie theater (Central Florida area). I was 20 years old at the time, and I’ve always been a major fan of sports associations such as the NFL and NBA. For more context, I would consider myself someone with above-average knowledge on topics NBA-related. Anyways, one morning I was opening the building, and the janitor turned in a lost wallet that was found from the previous night. This was no ordinary wallet, as it was a checkered Louis Vuitton design with engraved initials. I tried looking to see if there was any contact information from the wallet, and I immediately spotted his name (If I ever lost my wallet, I would like if the person who found it contacted me).  I still can’t believe that he lost his wallet at this random movie theater outside of Orlando, FL during the off-season (The odds of the person knowing who he is and finding his wallet are probably wild). Continuing on, I was shocked and immediately tried to find ways to contact him on social media. I tried contacting Harkless and his manager on multiple platforms, until I finally received a response on Instagram (Picture #1). After talking back and forth via direct messages, I ended up sending out the wallet to his address, including a small letter displaying how much of a fan I was (I’m a magic fan and supported him when he was on the team). After he received the package, it took several days for a response, however he replied by telling me next time the trail blazers come in town to play the Magic, he will hook me up with two tickets as well as post game passes. I was so excited and ecstatic for something like this because I’m a huge fan of the Magic and I love to watch the blazers! I told all my family and friends what happened, and my girlfriend and I called out of work for that day so we could enjoy ourselves. Long story short, he ghosted me, and I never got those tickets. (Picture #3-#5).
+
+Let me preface by saying that I don’t mind that he didn’t send anything in return for sending back his wallet. What I do mind is that he promised me something that he never went through with. Both me and my girl called out of work for this and I was so excited to go to the game and see what the post-game passes were all about. I’m a fan and this was a genuine let-down for me.
+
+I’m still a fan of Maurice Harkless, and I’m glad to see he’s on a championship contender this year, however I am still extremely disappointed and upset in how he completely lied to me/ghosted me once he got the wallet (that I paid priority shipping for). 
+
+TL;DR – Found Moe Harkless’ wallet and sent it back to him in the mail. He promised me tickets and post-game passes, however once he received the wallet in the mail, he ghosted me.
+
+EDIT #1 : I was very cringey and perhaps a bit excessive with my messages, however I don’t apologize for trying to get his attention. 
+
+EDIT #2 : I can see if he reads a message, and all of those final messages weren’t read. The only reason I sent those messages were basically to bump up our conversation.
+
+EDIT #3 : bro!
+
+EDIT #4 : thanks to those of you that are kind, i appreciate it! Several people are attacking me for “expecting a return” when the only reason I’m expecting something in return is because he said he would reward me. I’ve returned plenty of lost items before without a reward, but anyone would be disappointed if they were promised something that they didn’t receive.",0.75,2019-12-04 18:22:25
+29,Every team's off-season as an image of Michael Scott.,15758,c2ztnj,https://www.reddit.com/r/nba/comments/c2ztnj/every_teams_offseason_as_an_image_of_michael_scott/,960,1561085021.0,"Some of these need context and explanations, none of which I have provided. Also, some are .gifs
+
+&#x200B;
+
+[Atlanta Hawks](https://imgur.com/VMIHUYI)
+
+[Boston Celtics](https://imgur.com/Q6DcaZh)
+
+[Brooklyn Nets](https://imgur.com/X8JbVwo)
+
+[Charlotte Hornets](https://imgur.com/iqwb6va)
+
+[Chicago Bulls](https://imgur.com/I8kpMWi)
+
+[Cleveland Cavaliers](https://imgur.com/4RpzF8c)
+
+[Dallas Mavericks](https://imgur.com/iZFTxTJ)
+
+[Denver Nuggets](https://imgur.com/vm8hZMe)
+
+[Detroit Pistons](https://imgur.com/4FdtY9N)
+
+[Golden State Warriors](https://imgur.com/GJwc4MK)
+
+[Bonus Warriors](https://imgur.com/33kSUqM)
+
+[Houston Rockets](https://imgur.com/a/VGHz7In)
+
+[Indiana Pacers](https://imgur.com/tIBxaRo)
+
+[LA Clippers](https://imgur.com/VOdkNRF)
+
+[LA Lakers](https://imgur.com/3Te240t)
+
+[Memphis Grizzlies](https://imgur.com/GzIIA7N)
+
+[Miami Heat](https://imgur.com/rbSbEvf)
+
+[Milwaukee Bucks](https://imgur.com/dOMNFrU)
+
+[Minnesota Timberwolves](https://imgur.com/CeHJXcp)
+
+[New Orleans Pelicans](https://imgur.com/4f1kDhl)
+
+[New York Knicks](https://imgur.com/fLFCMCR)
+
+[Oklahoma City Thunder](https://imgur.com/VzlwDAh)
+
+[Orlando Magic](https://imgur.com/bSqKlGn)
+
+[Philadelphia Sixers](https://imgur.com/HlzyFpt)
+
+[Phoenix Suns](https://imgur.com/75ZyXqv)
+
+[Portland Trail Blazers](https://imgur.com/YJ2kBxK)
+
+[Sacramento Kings](https://imgur.com/w0ynpxA)
+
+[San Antonio Spurs](https://imgur.com/H16CggO)
+
+[Seattle Supersonics](https://imgur.com/agP8Ho2)
+
+[Toronto Raptors](https://imgur.com/4jA2TMk)
+
+[Utah Jazz](https://imgur.com/ELAlij0)
+
+[Washington Wizards](https://imgur.com/Iy8KnJS)
+
+&#x200B;
+
+Civil, on topic discussions only please.
+
+\*Edit: [Thank you all for the crazy amount of awards.](https://imgur.com/25gHUYn) Glad I could make so many people laugh. Maybe I will do a Dwight post later.",0.93,2019-06-20 19:43:41
+30,"NY Knicks Official Statement on Spike Lee: ""The idea that Spike Lee is a victim because we have repeatedly asked him to not use our employee entrance and instead use a dedicated VIP entrance. It's disappointing that Spike would create this false controversy to create drama. """,15468,fcyjv5,https://www.reddit.com/r/nba/comments/fcyjv5/ny_knicks_official_statement_on_spike_lee_the/,1859,1583287297.0,"Full Statement: 
+
+>""The idea that Spike Lee is a victim because we have repeatedly asked him to not use our employee entrance and instead use a dedicated VIP entrance- which is used by every other celebrity who enters the garden - is laughable. It's disappointing that Spike would create this false controversy to create drama. He is welcome to come to The Garden anytime via the VIP or general enterance; just not through our employee entrance, which what he and Jim agreed to last night when they shook hands""
+
+https://twitter.com/NY_KnicksPR/status/1234898716076789761
+
+Edit: Spike responded
+
+[[Sopan Deb] NEW: Spike Lee is on the phone with me right now calling this statement a lie. Lee says that at halftime, he told Dolan that he was never told that there was a new policy about entering the arena. Dolan said ""very rudely,"" according to Lee](https://twitter.com/SopanDeb/status/1234913130024767488)
+
+[""Now, you know. ""Whats laughable is how the Knicks are the laughingstock of the league in sports. That's what's fucking laughable.""  - Spike Lee""](https://twitter.com/SopanDeb/status/1234913130024767488)]
+
+[Lee says a month ago he was at a game, he saw Howard Stern leave through a particular exit - he tried to leave through the same way. Security wouldn't let him.](https://twitter.com/SopanDeb/status/1234915570379870209)
+
+[Lee says ""on my mother's grave,"" that he has never been told not to come in through the entrance at the center of the dispute.](https://twitter.com/SopanDeb/status/1234915755252178944)
+
+[OMG: ""I'll tell you one thing. I heard from the Brooklyn Nets.""  Lee says he gave away his tickets for this year already. (He's not changing allegiances though.)](https://twitter.com/SopanDeb/status/1234916292756459520)
+
+[""Anything the Knicks say, it’s going to be a lie. I challenge you to get the answers. I want Madison Square Garden to produce an email before I arrived at the Garden yesterday saying, 'Mr. Lee, you could no longer use the employee entrance.""....""It never happened.""](https://twitter.com/SopanDeb/status/1234919062498619393?s=19)",0.93,2020-03-03 18:01:37
+31,In a heartfelt IG post Lonnie Walker opens up about the significance of his hair and why he cut it,15424,h7bldh,https://www.reddit.com/r/nba/comments/h7bldh/in_a_heartfelt_ig_post_lonnie_walker_opens_up/,464,1591955289.0,"[The IG post](https://www.instagram.com/p/CBULIhVBSon/?utm_source=ig_web_copy_link)
+>""The real truth as to why i started doing this early 5th grade, it was a cloaking device for me. During the summer of my 5th grade year I was around more family. Some that names will be left alone I was around more. I was sexually harassed, raped, abused, I even got accustomed to it because being at that age you don’t know what is what. I was a gullible curious kid that didn’t know what the real world was. I had a mindset that my hair was something that I can control. My hair was what I can make and create and be mine. And it gave my confidence. As of recently I wasn’t at my best. Previous History popping up in my head and it sucked mentally “demons”..... because of this virus, I began to truly look at myself in the mirror and see who I truly was even behind closed doors. Long story short I have found peace and internal happiness through this journey god willingly. I forgave everyone even the people that don’t deserve it why? Because it’s dead weight. Time doesn’t wait on anyone so why should I waste my time on it ? Me cutting my hair was more than a cut. My hair was a mask of me hiding the insecurity’s that I felt the world wasn’t ready for. But now better then ever. Out with old. In with the new. I have shed my skin mentally, emotionally, physically, and spiritually. Life will always be hard. Gotta play with the cards your dealt with and try and make a winning hand. And if you lose. It’s never a lost. It’s a lesson 🙏🏾. I’m gonna be off this for awhile still growing through this. Just know I love each and everyone one of y’all. Peace love and happiness 💕🙏🏾""
+
+
+&nbsp;
+
+edit: I'm adding this because this post is gaining traction
+
+This quarantine has been rough for everyone, but I hope people can take time to find themselves like Lonnie did here. Don't let demons control your life. Reach out to people if necessary, there are people that truly care about you. There is nothing wrong with asking for help.
+
+Here are some hotlines for you to call if you need someone to talk to:
+
+Sexual Abuse Hotline: 1-800-656-4673
+
+National Suicide Prevention Hotline: 1-800-273-8255",0.95,2020-06-12 02:48:09
+32,[OC] How My 3-Year-Old Says the Name of Every 2019 NBA All-Star,14932,cbwkly,https://www.reddit.com/r/nba/comments/cbwkly/oc_how_my_3yearold_says_the_name_of_every_2019/,1106,1562886035.0,"I like to watch NBA highlights with my kid, and I noticed that he has started calling LeBron James ""Uncle Bron."" I have no idea where it comes from, but I think it's kind of cute. It made me wonder what he would call the other players named to the 2019 All-Star teams.
+
+The following is the results of that study. The spelling... I don't know, I tried my best.
+
+#Team LeBron
+
+**Player Name** | **How My Kid Says It** | **Notes**
+:-- | :-- | :--
+Stephen Curry | Alvin Gooey | 
+James Harden | Jim Arby's | Founder of Arby’s.
+Kevin Durant | Kayden Grant | Just another KD burner account.
+Paul George | Pop Pope | 
+LeBron James | Uncle Bron | As you already know.
+|||
+Russell Westbrook | Westy Backbook | One of my favorites.
+Damian Lillard | Sky Woolworth | Lord of House Woolworth, Warden of the Sheep 
+Klay Thompson | Gay Toppin | 
+Anthony Davis | Mister Jesse | Uh, yeah… I really don’t know.
+LeMarcus Aldridge | Marcus Allidge |
+Nikola Jokic | Yee Yuh Yuh Yopich | Very solid. 
+Karl-Anthony Towns | Girl Labishey Towns |
+Dirk Nowitzi | Dirt Luhpinski | There’s no way Dirk didn’t sign into a hotel as “Dirt Luhpinski” at some point in his career.
+
+#Team Giannis
+
+**Player Name** | **How My Kid Says It** | **Notes**
+:-- | :-- | :--
+Kemba Walker | Ska Popper | He was bringing the freshest beats around in the summer of 94.
+Kyrie Irving | Kyren Owing |
+Kawhi Leonard | Guy Yenner | Shouts to Yul Brynner. We were so close.
+Joel Embiid | Loud Bead |
+Giannis Antetokounmpo | Yawn Wegonnaboomboom | The one you’ve all been waiting for.
+|||
+Kyle Lowry | How Wiry |
+Victor Oladipo | Cola Beatpole |
+Khris Middleton | Kiss Mealton |
+Bradley Beal | Probably Bill | He may have just given up at this point.
+Ben Simmons | Ben Simmons | Yeah, he definitely did.
+Blake Griffin | Pate Pushin |
+Nikola Vucevic | Boya Boochbitch | I was wrong. He still had this gem waiting.
+Dwyane Wade | Main Raid |
+D'Angelo Russell | Deanna Parruppa |
+
+What do you guys think? Has my kid stumbled onto the alter-egos of some of the NBA's biggest stars? Or have I just wasted an hour writing and figuring out how to format this thing?
+
+Edit: Thanks for all the kind words, and the gilds! I will let the lad know how much he brightened some folks' days here on r/NBA :)
+
+Edit 2: The process for creating this list was that I said each name and asked him to repeat it back. Sometimes I asked him to repeat it more than once if it was hard to understand.",0.89,2019-07-11 16:00:35
+33,[OC] 2018-2019 NBA Almanac,14828,9omj43,https://www.reddit.com/r/nba/comments/9omj43/oc_20182019_nba_almanac/,488,1539716333.0,"Tonight the 73rd NBA regular season commences. Together, we have survived another long summer without competitive basketball games and after 4 months of waiting it is finally time for games to mean something again.  
+
+
+With that said it is only fitting we bring to an end the 2018 offseason here on r/NBA with another NBA Almanac brought to you from yours truly.  
+
+
+[**2018-2019 NBA Almanac**](https://drive.google.com/file/d/1DkoWgN7KLon-gtIqp340WClRdrH0MQBV/view?usp=sharing)  
+
+
+The seasoned veterans of this subreddit will be familiar with my previous work and this year I bring you another edition of the same stuff you have grown to love along with some new additions (*cough* G-League *cough*). I hope you like it. A lot of work, time and effort goes into this personal project which I have become deeply attached to over the past 4 seasons. I sincerely enjoy creating this book each season and releasing it to fans of the greatest game in the world to absorb and digest is a overly gratifying experience.  
+
+
+Finally, the NBA subreddit is continually growing so I can appreciate many readers will be coming across my work for the very first time. If you like what you see then the links for the past seasons editions can be found below:  
+
+
+[2017-2018](https://drive.google.com/file/d/0B3UduQF5zfR9YVMydVZtUk11Vkk/view)  
+[2016-2017](https://drive.google.com/file/d/0B3UduQF5zfR9bU53VENUZjgtenM/view)  
+[2015-2016](https://drive.google.com/file/d/0B3UduQF5zfR9NGFsNU5WRTlLQlU/view)  
+
+
+I hope the Almanac comes in use to you throughout the year. Read it, Print it, Share it and above all enjoy the season!  
+
+
+See you next year.",0.96,2018-10-16 11:58:53
+34,[OC] Westbrook can build a 1350 Sq. Ft. house with his bricks.,14731,cxi3hv,https://www.reddit.com/r/nba/comments/cxi3hv/oc_westbrook_can_build_a_1350_sq_ft_house_with/,812,1567206022.0,"to start things off, A bricked shot by definition is typically any shot that bounces off the backboard or rim.  Unfortunately, there is currently no statistic for how a player misses, so I am counting all of his misses as bricks.
+
+Over Westbrook's career, he has missed 8,627 shots during the regular season so if my math is correct, that gives us 8,627 bricks.
+
+There are at least 10 different brick sizes, but we are going to go with a [standard modular brick - 7 5/8"" x 2 1/4"".](https://imgur.com/a/JH6X319) We are going to plan for 7 bricks per sq. ft.
+
+With the house being 1,350 sq.ft., the perimeter of the house would be approximately 154 linear feet (27′ x 50′). Multiply that by a height of 8 feet to get a total square wall footage of 1,232.
+
+At 7 bricks per sq. ft., you'll end up using 8,624 bricks out of the total 8,627.
+
+Here are some nice brick homes in Houston around 1350 Sq. Ft. for reference:
+
+[Home #1 - 1,292 Sq. Ft](https://www.redfin.com/TX/Houston/10303-Sand-Pass-Ln-77064/home/30538851)
+
+[Home #2 - 1,325 Sq. Ft.](https://www.redfin.com/TX/Houston/7535-Navidad-Rd-77083/home/32946432)
+
+[Home #3 - 1,277 Sq. Ft.](https://www.redfin.com/TX/Houston/8622-Pine-Falls-Dr-77095/home/30530695)
+
+Edit: When I posted, these redfin homes all had under 100 views each. Now they have 14,254/7,740/5,507 views.
+
+Edit 2: I’m fairly confident that [Home #1 - 1,292 Sq. Ft](https://www.redfin.com/TX/Houston/10303-Sand-Pass-Ln-77064/home/30538851) is now the most viewed home on Redfin at over 42k views",0.91,2019-08-30 16:00:22
+35,Bucks fans claim that NBA fans and the national media don't talk about their team enough. Could this be solved by the Bucks changing their team name to the Milwaukee Talkies?,14531,6l22py,https://www.reddit.com/r/nba/comments/6l22py/bucks_fans_claim_that_nba_fans_and_the_national/,465,1499138931.0,"I've been a huge supporter of this change for years, and I think now is the time to strike. The East is looking as weak as it has ever been and Giannis is starting to catch the eye of casual fans and the mainstream media alike. I believe now is the perfect time for Milwaukee to captivate sports fans across the Earth with a new name/identity that puts them at the forefront of the world of sports and entertainment. 
+
+The name will not only attract young people who are always communicating on their social medias, but the geriatric crowd who will hear the name and reflect fondly on their youth where they would go to talking picture shows and do the Charleston before succumbing to the tuberculosis. Good times. 
+
+Additionally, with jersey advertisements becoming an inevitability, the possibilities are endless for the Milwaukee Talkies. A cool cellular service like Jitterbug or Alltel, or a hip social media platform like Snapgram or Instaspace would both be fitting with the team name as well as appeal to the aforementioned youths/decrepits. Or they could go in a different direction and get an ad patch [appealing to the Latin American crowd](https://sep.yimg.com/ay/mex-grocer/takis-xplosion-cheese-and-chili-pepper-by-barcel-pack-of-3-3.gif)
+
+I say the possibilities are endless, and in a post-KD world where the real toughest road is how to make the NBA watchable again, the Milwaukee Talkies are the perfect answer! We all love \#FearTheDeer but this name change would make Milwaukee the \#TalkieOfTheTown",0.88,2017-07-03 20:28:51
+36,[Rooks] Lou William's personal account of being held at gunpoint in Philly and his response to the situation.,14382,b5dn3k,https://www.reddit.com/r/nba/comments/b5dn3k/rooks_lou_williams_personal_account_of_being_held/,881,1553563816.0,"Tweet from Taylor Rooks: https://twitter.com/TaylorRooks/status/1110006228766416896
+
+Transcript of the text:
+
+> Lou Williams: I didn't talk him out of killing me. Once he said what he said, I came up with a solution, but I didn't talk him out of it. Once he said what he said, I didn't tell him ""aye man, wait.” Story is, I was at the barbershop.....I get my hair cut in the hood. 22nd and Indiana in the hood. My security was with me at the barbershop. We leave the barbershop, I'm at the light. He called me and he said ""you good?” I said ""yea I'm straight.” He said ""alright good.” I watched him do a U turn behind me and pull off. I reached down and started playing with my phone sitting at the light. I look up and hear a knock at the window. I look up, dude got the gun. I don't know why I didn't get out the car......I should have got out the car, but instinctively I rolled the window down.........I rolled the window down and he told me to get out the car. We made eye contact and he said “Damn Lou, I can't even do it to you.' He just said 'Damn Lou, I can't even do it to you.' The next thing he said was 'man as much as you do for the city. As much as you do for the neighborhood, I can't even do you like that.' So what ended up happening is - in North Philly - again I am a dreamchaser. I've known Meek before the world knew Meek. When it was cold out, we would give out coats and sweaters. We did it out of pocket. Going to Burlington coat factory ourselves. Pulling up in Uhaul trucks and pulling stuff out......we used to do these things. Camps in the summertime. It was just a community that embraced me. This dude was from that community. He said ""I just got out of jail, I'm hurting. I'm hungry. All I got is this gun” So I look around and there's a McDonalds right there and I told him ""bro, if you pull in, lets go in and I'll buy you anything you want to eat.” It wasn't like he robbed me and then we got in the car. I just told him that I will buy him whatever. And that's what I did.....we sat there and chopped it up. He was just like ""I'm down and out out here."" I told him ""bro I get it, but this ain't the way.""
+
+
+Lou is cool as fuck, man.",0.96,2019-03-25 18:30:16
+37,NBA 400 3-Pointer Challenge Completed in 2:45 w/Proof,14305,6swm2g,https://www.reddit.com/r/nba/comments/6swm2g/nba_400_3pointer_challenge_completed_in_245_wproof/,1089,1502430194.0,"**I lived to tell the tale of 400 NBA 3’s!!**
+
+A few days ago I saw the [400 NBA three pointer challenge](https://www.reddit.com/r/nba/comments/6rzyc6/youre_locked_in_a_gym_and_need_to_make_400_threes/). No food, no drink, just 400 made NBA threes or death. Something about the challenge spoke to me, so I decided to give it a go. I bought a GoPro camera and headed to the gym. 
+
+I’m 42 and consider myself a good shot. I live next to a rec center and go shoot there once a month or so. I quit basketball after my sophomore year of high school and haven’t played 5 on 5 basketball in 20 years. I’ve never shot on a court with a NBA three point line. 
+
+Without any food, drink, bathroom breaks, or leaving the frame of the camera (except for a few long rebounds), I finished the challenge in 2 hours 45 minutes. I shot almost exactly 50% (400 / 804). 
+
+* [12 Minute Highlight Video with a few comments after each 100](https://youtu.be/F0qRdeOsYR8)
+
+* [10 straight makes (shots 121 - 130)](https://youtu.be/xdobqrE1A3Q)
+
+**Stats:**
+
+* First 100 makes took 180 shots (55.56%)
+
+* Second 100 took 167 shots (59.88%)
+
+* Third 100 took 224 shots (44.64%)
+
+* Fourth 100 took 233 shots (42.92%)
+
+* Airballs: 2 (including my 3rd from last shot)
+
+* Made streaks of 10,9,8,7,5,5,5,5,5
+* Longest cold streak: 8
+* Hottest Streak: Made 30/38 (79%) to start my second 100. 
+
+It was hard. Kind of like running a half marathon hard. I was for sure thirsty, especially at the beginning before I settled in. I had a feeling the third 100 would suck, and it did. It was the “maybe I should quit” 100. Once you get past 300, you’re in it until the end. 
+
+I have the entire event recorded and could put it all up on Youtube if there are any doubters. I pledge on my grandmother’s soul that I never left the gym, ate food, or had a drink. I took a 1-2 minute break each 100, where I talked to the camera for a moment. 
+
+So, until proven otherwise by a well-documented attempt, I consider myself the world record holder in the NBA Subreddit 400. Two hours forty five. 
+
+___
+
+Update: [Here's the data](https://docs.google.com/spreadsheets/d/1AylOAh1LtAf3aUXPysKVqqrnYblsowZ-ftKUVgGKj8k/edit#gid=0) for makes/misses in a Google Sheet
+
+Update #2: For the skeptics wanting the full video, I compiled one at 4x. It's uploading to YouTube and will be a few hours. [Some proof](http://i.imgur.com/Kg3n1m3.jpg) 
+
+Update #3: The 4x video is 6gb and currently at 35% upload. I'm going to bed and will post it in the morning. 
+
+Update #4: Ok skeptics. The full video is up. [First is the shot](https://youtu.be/IjHdZxIpn-o) I made making sure the camera was properly positioned. Then [399 more sweet, sweet treys](https://youtu.be/vykh9coITLk) at 4x.",0.92,2017-08-10 22:43:14

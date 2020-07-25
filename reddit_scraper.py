@@ -32,7 +32,7 @@ def main():
                 "category":[]\
                 }
 
-    for submission in rising_subreddit:
+    for submission in top_subreddit:
         if validfy(submission.title, submission.selftext.strip()):
             topics_dict["title"].append(submission.title)
             topics_dict["score"].append(submission.score)
@@ -42,26 +42,26 @@ def main():
             topics_dict["created"].append(submission.created)
             topics_dict["body"].append(submission.selftext.strip())
             topics_dict["upvote_ratio"].append(submission.upvote_ratio)
-            topics_dict["category"].append("rising")
+            topics_dict["category"].append("top")
 
         topics_data = pd.DataFrame(topics_dict)
         _timestamp = topics_data["created"].apply(get_date)
         topics_data = topics_data.assign(timestamp = _timestamp)
 
-        topics_data.to_csv('reddit_posts_rising.csv') 
+        topics_data.to_csv('reddit_posts_top.csv') 
 
 def get_date(created):
     return dt.datetime.fromtimestamp(created)
 
 
 """ Checks to see if following conditions are met
-    1) Body content is at least 1500 characters
+    1) Body content is at least 250 characters
     2) Does not contain 'streamable' in body 
     3) Also want to get rid of boxscore stuff '[Post Game Thread] in the title
     
 """
 def validfy(title, post):
-    if len(post) > 500:
+    if len(post) > 250:
         if '[Post Game Thread]' not in title:
             if 'streamable' or '[Post Game Thread]' or '|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|' not in post:
                 return True

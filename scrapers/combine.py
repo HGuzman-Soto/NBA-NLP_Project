@@ -1,3 +1,5 @@
+#Used with reddit_scraper.py
+
 import os, glob
 import pandas as pd
 

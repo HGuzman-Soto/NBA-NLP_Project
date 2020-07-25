@@ -1,6 +1,8 @@
 from twitterscraper import query_tweets
+from langdetect import detect
 import csv
 import datetime as dt
+
 
 dataFields = {
     "text": 0,
@@ -21,14 +23,33 @@ dataFields = {
     "username" : 0
     #"video_url" : 0
 }
+'''
+# Helper function #
+
+Returns boolean that checks if the language
+    in the text is in english
+
+'''
+def language(text):
+    return ('en' == detect(text))
 
 if __name__ == '__main__':
+    
+    #how many days ago you want to retrieve tweets from
+    num_Days_ago = 2 
+    
     # Takes tweets from date
-    date = dt.date.today()
+    date = dt.date.today() - dt.timedelta(days=num_Days_ago)
+
     limit = 1000
     lang = 'english'
 
-    with open('data_' + str(date) + '.csv', 'w', newline='', encoding="utf-8") as file:
+    with open('tweets_' +
+              str(date) +
+              '.csv', 'w',
+              newline='',
+              encoding="utf-8") as file:
+        
         writer = csv.writer(file)
         fields = []
         count = 0
@@ -42,10 +63,10 @@ if __name__ == '__main__':
                               limit = limit,
                               begindate=date,
                               enddate=tomorrow,
-                              lang = lang
-                                  ):
+                              lang = 'english'):
             #Store Tweets without videos
-            if(tweet.video_url == ''):
+            if(tweet.video_url == '' and language(tweet.text)):
+            
                 #Gather info for row
                 fields = []
                 

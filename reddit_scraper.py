@@ -3,15 +3,9 @@ import pandas as pd
 import datetime as dt
 import os
 
-#I'll look into each of the categories as well
-# Right now its just top
-
-#I'll also want to get reddit comment data
-
-#find a way to referesh https://praw.readthedocs.io/en/latest/tutorials/refresh_token.html
-
 
 def main():
+    #category = argv[2] #give it a category
     reddit = praw.Reddit(client_id="CIiRpIvsdkRJ8A",
                         client_secret=os.environ.get('client_secrets'),
                         user_agent="NBA_Scraper",
@@ -19,12 +13,13 @@ def main():
                         password=os.environ.get('reddit_pwd'))
 
     subreddit = reddit.subreddit('nba')
-    top_subreddit = subreddit.top(limit=1000)
-    hot_subreddit = subreddit.hot(limit=1000)
-    controversial_subreddit = subreddit.controversial(limit=1000)
-    rising_subreddit = subreddit.rising(limit=1000)
+    top_subreddit = subreddit.top(limit=100000)
+    hot_subreddit = subreddit.hot(limit=100000)
+    controversial_subreddit = subreddit.controversial(limit=100000)
+    rising_subreddit = subreddit.rising(limit=100000)
     
-    
+    category = ['top', 'hot', 'controversial', 'rising']
+
 
     topics_dict = { "title":[], \
                 "score":[], \
@@ -34,9 +29,10 @@ def main():
                 "created": [], \
                 "body":[], \
                 "upvote_ratio":[], \
+                "category":[]\
                 }
 
-    for submission in top_subreddit:
+    for submission in rising_subreddit:
         if validfy(submission.title, submission.selftext.strip()):
             topics_dict["title"].append(submission.title)
             topics_dict["score"].append(submission.score)
@@ -46,12 +42,13 @@ def main():
             topics_dict["created"].append(submission.created)
             topics_dict["body"].append(submission.selftext.strip())
             topics_dict["upvote_ratio"].append(submission.upvote_ratio)
+            topics_dict["category"].append("rising")
 
         topics_data = pd.DataFrame(topics_dict)
         _timestamp = topics_data["created"].apply(get_date)
         topics_data = topics_data.assign(timestamp = _timestamp)
 
-        topics_data.to_csv('reddit_posts.csv') 
+        topics_data.to_csv('reddit_posts_rising.csv') 
 
 def get_date(created):
     return dt.datetime.fromtimestamp(created)
@@ -64,13 +61,12 @@ def get_date(created):
     
 """
 def validfy(title, post):
-    if len(post) > 1500:
+    if len(post) > 500:
         if '[Post Game Thread]' not in title:
             if 'streamable' or '[Post Game Thread]' or '|^[nbaboxscoregenerator.com](http://www.nbaboxscoregenerator.com) ^by ^/u/Obi-Wan_Ginobili|' not in post:
                 return True
     return False
 
-category = ['top', 'hot', 'controversial']
 
 if __name__ == "__main__":
     main()

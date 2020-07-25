@@ -1,8 +1,0 @@
-Note: The files extract.py is from this article I read 30 days ago(referenced in README.md). Not really
-something to follow but a good reference. Will be deleted later. Nice overview though
-
-1) Build a scraper for NBA.com documents about the game
-2) Build a scraper for r/NBA for basketball games - Hansel
-3) Build a scraper for twitter with hashtags related to basketball games
-4) Build a scraper for bleacher report nba games
-5) I personally need to learn how to set environemnt paths
